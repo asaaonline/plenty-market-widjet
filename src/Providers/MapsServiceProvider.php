@@ -1,6 +1,6 @@
 <?php
  
-namespace GoogleMapsWidget\Providers;
+namespace GoogleMapsWidget6\Providers;
  
 use IO\Helper\TemplateContainer;
 use IO\Helper\ResourceContainer;
