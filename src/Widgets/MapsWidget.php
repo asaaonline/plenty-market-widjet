@@ -1,12 +1,12 @@
 <?php
 
-namespace GoogleMapsWidget6\Widgets;
+namespace GoogleMapsWidget\Widgets;
 
 use Ceres\Widgets\Helper\BaseWidget;
 
 class MapsWidget extends BaseWidget
 {
-    protected $template = "GoogleMapsWidget6::Widgets.MapsWidget";
+    protected $template = "GoogleMapsWidget::Widgets.MapsWidget";
 
     protected function getTemplateData($widgetSettings, $isPreview)
     {
