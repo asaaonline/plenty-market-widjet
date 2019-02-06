@@ -1,7 +1,7 @@
 {
     "serviceProvider": "GoogleMapsWidget\\Providers\\MapsServiceProvider",
     "version": "1.0.0",
-    "name": "GoogleMapsWidget",
+    "name": "GoogleMapsWidget6",
     "marketplaceName": { "de": "Google Maps Widget", "en": "Google Maps Widget" },
     "description": "This is the Google Maps Widget for the Shop Builder developed by plentymarkets.",
     "author": "plentymarkets GmbH",
@@ -19,5 +19,5 @@
     "keywords": ["plentymarkets", "plugins", "layout", "widget", "google", "maps", "shopbuilder", "shop builder"],
     "type": "widgets",
     "require": ["Ceres", "IO"],
-    "namespace": "GoogleMapsWidget"
+    "namespace": "GoogleMapsWidget6"
 }
