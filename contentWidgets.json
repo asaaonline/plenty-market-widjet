@@ -12,7 +12,7 @@
                 "required": true,
                 "defaultValue": "",
                 "options": {
-                    "name": "Widget.mapsApiKeyLabel",
+                    "name": "Test",
                     "tooltip": "Widget.mapsApiKeyTooltip"
                 }
             },
