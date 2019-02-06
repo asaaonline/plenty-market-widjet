@@ -2,7 +2,7 @@
     "serviceProvider": "GoogleMapsWidget\\Providers\\MapsServiceProvider",
     "version": "1.0.0",
     "name": "GoogleMapsWidget6",
-    "marketplaceName": { "de": "Google Maps Widget my test", "en": "Google Maps Widget my test" },
+    "marketplaceName": { "de": "Google Maps Widget", "en": "Google Maps Widget" },
     "description": "This is the Google Maps Widget for the Shop Builder developed by plentymarkets.",
     "author": "plentymarkets GmbH",
     "license": "AGPL-3.0",
