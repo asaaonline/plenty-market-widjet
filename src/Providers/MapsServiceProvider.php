@@ -1,6 +1,6 @@
 <?php
  
-namespace GoogleMapsWidget\Providers;
+namespace GoogleMapsWidget6\Providers;
  
 use IO\Helper\TemplateContainer;
 use IO\Helper\ResourceContainer;
@@ -19,7 +19,7 @@ class MapsServiceProvider extends ServiceProvider
     {
         $eventDispatcher->listen('IO.Resources.Import', function (ResourceContainer $container)
         {
-            $container->addScriptTemplate('GoogleMapsWidget::Content.Scripts');
+            $container->addScriptTemplate('GoogleMapsWidget6::Content.Scripts');
         }, 0);
     }
 }
