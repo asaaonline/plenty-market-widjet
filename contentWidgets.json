@@ -1,6 +1,6 @@
 [
     {
-        "identifier": "GoogleMapsWidget6::MapsWidget",
+        "identifier": "GoogleMapsWidget::MapsWidget",
         "label": "Widget.mapsLabel",
         "previewImageURL": "/images/google-maps-widget.svg",
         "type": "default",
