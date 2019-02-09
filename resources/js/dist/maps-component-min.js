@@ -23,7 +23,14 @@
         return false;
     });
 
+    var ur="https://www.linkedin.com/shareArticle?mini=true&url="+x+"&title=LinkedIn%20Developer%20Network&summary=My%20favorite%20developer%20program&source=LinkedIn";
 
+
+    $('#link_id').click(function(){
+        window.open(ur, 'window name', 'window settings');
+        return false;
+      });
+      
 });
 
 
