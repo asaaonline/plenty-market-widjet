@@ -3,27 +3,16 @@
         <p style="color:blue;">asela ddddd</p>>
             </div>
 
-            <h1 id="t" class="test">changeee fbb ima</h1>
+            <h1 id="t" class="test">changeee fbb ima hover</h1>
    
-    <script>
-        window.fbAsyncInit = function() {
-          FB.init({
-            appId      : '249722569259814',
-            xfbml      : true,
-            version    : 'v2.5'
-          });
-        };
-      
-        (function(d, s, id){
-           var js, fjs = d.getElementsByTagName(s)[0];
-           if (d.getElementById(id)) {return;}
-           js = d.createElement(s); js.id = id;
-           js.src = "//connect.facebook.net/en_US/sdk.js";
-           fjs.parentNode.insertBefore(js, fjs);
-         }(document, 'script', 'facebook-jssdk'));
-      </script>
+      <div id="fb-share-button">
+         <img src="{{ plugin_path("GoogleMapsWidget") }}/images/img.svg">
+          <span>Share</span>
+      </div>
 
-      <a class="ui facebook button"><img src="{{ plugin_path("GoogleMapsWidget") }}/images/img.svg"></img></a>
+
+
+
 
 
             <script src="{{ plugin_path("GoogleMapsWidget") }}/js/dist/jquery-3.3.1.js"></script>
