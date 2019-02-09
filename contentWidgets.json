@@ -43,18 +43,18 @@
                     "tooltip": "Widget.itemListCaptionTooltip",
                     "listBoxValues": [
                         {
-                            "value": "default-caption",
-                            "caption": "Widget.itemListCaptionDefault",
+                            "value": "1",
+                            "caption": "Style1",
                             "position": 0
                         },
                         {
-                            "value": "custom-caption",
-                            "caption": "Widget.itemListCaptionCustom",
+                            "value": "2",
+                            "caption": "Style2",
                             "position": 1
                         },
                         {
-                            "value": "no-caption",
-                            "caption": "Widget.itemListCaptionNoCaption",
+                            "value": "3",
+                            "caption": "Style3",
                             "position": 2
                         }
                     ]
