@@ -33,6 +33,32 @@
                     "name": "Widget.mapsZoomLabel",
                     "tooltip": "Widget.mapsZoomTooltip"
                 }
+            },
+            "headlineStyle": {
+                "type": "select",
+                "required": false,
+                "defaultValue": "default-caption",
+                "options": {
+                    "name": "Widget.itemListCaptionLabel",
+                    "tooltip": "Widget.itemListCaptionTooltip",
+                    "listBoxValues": [
+                        {
+                            "value": "default-caption",
+                            "caption": "Widget.itemListCaptionDefault",
+                            "position": 0
+                        },
+                        {
+                            "value": "custom-caption",
+                            "caption": "Widget.itemListCaptionCustom",
+                            "position": 1
+                        },
+                        {
+                            "value": "no-caption",
+                            "caption": "Widget.itemListCaptionNoCaption",
+                            "position": 2
+                        }
+                    ]
+                }
             }
         }
     }
