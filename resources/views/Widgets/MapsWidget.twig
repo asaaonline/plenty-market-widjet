@@ -32,7 +32,7 @@
                 <div class="row">
                   <div  class="col-2">
                       <label class="switch">
-                          <input type="checkbox">
+                          <input id="fun" onclick="test('game')" type="checkbox">
                           <span class="slider round"></span>
                         </label>
   
@@ -82,4 +82,5 @@
 
 
             <script src="{{ plugin_path("GoogleMapsWidget") }}/js/dist/jquery-3.3.1.js"></script>
+            <script src="{{ plugin_path("GoogleMapsWidget") }}/js/dist/bootbox.min.js"></script>
 {% endif %}

@@ -30,7 +30,29 @@
         window.open(ur, 'window name', 'window settings');
         return false;
       });
-      
+
 });
 
 
+
+function test(value) {
+    console.log(value);
+            if ($('#fun').is(":checked")) {
+                bootbox.prompt({
+                    title: "This is a prompt with a set of checkbox inputs!",
+                    inputType: 'checkbox',
+                    inputOptions: [
+                        {
+                            text: 'Choice One',
+                            value: '1',
+                        },
+                    
+                    ],
+                    callback: function (result) {
+                        console.log(result);
+                    }
+                });
+            }
+    
+    
+        }
