@@ -10,8 +10,15 @@
         }
     );
 
-    $("#fb").attr("data-href",x);
+  
 
+
+    $(".ui.facebook.button").click(function() {
+        FB.ui({
+            method: 'share',
+            href: x,
+}, function(response){});
+    })
 
 });
 
