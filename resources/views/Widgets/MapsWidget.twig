@@ -69,7 +69,13 @@
                             </label>
       
                       </div>  
-                      <div id="fb-share-button" class="col-5 pic"><img src="{{ plugin_path("GoogleMapsWidget") }}/images/img.svg"></div>  
+                      <div id="fb-share-button" class="col-5 pic">
+                        <a id="google" href="https://plus.google.com/share?url=https://www.facebook.com"  onclick="javascript:window.open(this.href,
+                        '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;">
+                        <img
+                        src="{{ plugin_path("GoogleMapsWidget") }}/images/img.svg" alt="Share on Google+"/>
+                      </a>
+                      </div>   
                       <div class="col-5"></div>
                       
                     </div>

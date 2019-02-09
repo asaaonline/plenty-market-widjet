@@ -10,7 +10,10 @@
         }
     );
 
-  
+    var gogle="https://plus.google.com/share?url="+x;
+
+        $("#google").attr("href",gogle);
+        
 
     var fbButton = document.getElementById('fb-share-button');
     var url = window.location.href;
