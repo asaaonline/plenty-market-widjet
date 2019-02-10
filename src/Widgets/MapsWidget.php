@@ -14,12 +14,16 @@ class MapsWidget extends BaseWidget
 
         $apiKey = $widgetSettings["apiKey"]["mobile"];
 
-        // if (empty($address) || empty($apiKey))
-        // {
-        //     return [
-        //         "geocoding_data" => false
-        //     ];
-        // }
+        if (empty($address) || empty($apiKey))
+        {
+            return [
+                "geocoding_data" => [
+                    
+                    "address" => "ratnapura",
+                    "apiKey" => 2
+                ]
+            ];
+        }
 
         // $address = urlencode($address);
 
@@ -47,8 +51,8 @@ class MapsWidget extends BaseWidget
             return [
                 "geocoding_data" => [
                     
-                    "address" => $address,
-                    "apiKey" => $apiKey
+                    "address" => "colombo",
+                    "apiKey" => 56
                 ]
             ];
     //     }
