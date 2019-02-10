@@ -19,7 +19,15 @@ class MapsWidget extends BaseWidget
             return [
                 "geocoding_data" => [
                     
-                    "address" => $address,
+                    "address" => "colombo",
+                    "apiKey" => $apiKey
+                ]
+            ];
+        }else{
+            return [
+                "geocoding_data" => [
+                    
+                    "address" => "ratnapura",
                     "apiKey" => $apiKey
                 ]
             ];
@@ -48,13 +56,13 @@ class MapsWidget extends BaseWidget
 
     //     if ($lat && $lng && $formatted_address)
     //     {
-            return [
-                "geocoding_data" => [
+            // return [
+            //     "geocoding_data" => [
                     
-                    "address" => $address,
-                    "apiKey" => $apiKey
-                ]
-            ];
+            //         "address" => "ratnapura",
+            //         "apiKey" => $apiKey
+            //     ]
+            // ];
     //     }
 
     //     return [
