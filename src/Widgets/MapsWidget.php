@@ -14,6 +14,8 @@ class MapsWidget extends BaseWidget
 
         $apiKey = $widgetSettings["apiKey"]["mobile"];
 
+        echo($widgetSettings);
+
         if (empty($address) || empty($apiKey))
         {
             return [
