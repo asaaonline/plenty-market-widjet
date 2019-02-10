@@ -44,14 +44,13 @@ class MapsWidget extends BaseWidget
 
     //     if ($lat && $lng && $formatted_address)
     //     {
-    //         return [
-    //             "geocoding_data" => [
-    //                 "lat" => $lat,
-    //                 "lng" => $lng,
-    //                 "address" => $formatted_address,
-    //                 "apiKey" => $apiKey
-    //             ]
-    //         ];
+            return [
+                "geocoding_data" => [
+                    
+                    "address" => $address,
+                    "apiKey" => $apiKey
+                ]
+            ];
     //     }
 
     //     return [
