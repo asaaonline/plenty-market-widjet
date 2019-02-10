@@ -4,14 +4,16 @@
             </div>
 
             <h1 id="t" class="test">changeee fbb ima hover</h1>
-   
+   {{<pre>
+     {{ dump(geocoding_data) }}
+   </pre>}}
       {# <div id="fb-share-button">
          <img src="{{ plugin_path("GoogleMapsWidget") }}/images/img.svg">
           <span>Share</span>
       </div> #}
  <ul id="navigation">
         {% for item in geocoding_data %}
-            <li><a href="{{ item.address }}">{{ item.apiKey }}</a></li>
+            <li><a href="{{ item.address }}">{{ item }}</a></li>
         {% endfor %}
         </ul>
 
