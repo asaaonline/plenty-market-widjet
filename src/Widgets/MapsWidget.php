@@ -19,8 +19,8 @@ class MapsWidget extends BaseWidget
             return [
                 "geocoding_data" => [
                     
-                    "address" => "ratnapura",
-                    "apiKey" => 2
+                    "address" => $address,
+                    "apiKey" => $apiKey
                 ]
             ];
         }
@@ -51,8 +51,8 @@ class MapsWidget extends BaseWidget
             return [
                 "geocoding_data" => [
                     
-                    "address" => "colombo",
-                    "apiKey" => 56
+                    "address" => $address,
+                    "apiKey" => $apiKey
                 ]
             ];
     //     }
