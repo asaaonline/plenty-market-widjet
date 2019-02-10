@@ -37,24 +37,24 @@
             "headlineStyle": {
                 "type": "select",
                 "required": false,
-                "defaultValue": "default-caption",
+                "defaultValue": "1",
                 "options": {
                     "name": "Widget.itemListCaptionLabel",
                     "tooltip": "Widget.itemListCaptionTooltip",
                     "listBoxValues": [
                         {
                             "value": "1",
-                            "caption": "Style1",
+                            "caption": "Widget.Style1",
                             "position": 0
                         },
                         {
                             "value": "2",
-                            "caption": "Style2",
+                            "caption": "Widget.Style2",
                             "position": 1
                         },
                         {
                             "value": "3",
-                            "caption": "Style3",
+                            "caption": "Widget.Style3",
                             "position": 2
                         }
                     ]

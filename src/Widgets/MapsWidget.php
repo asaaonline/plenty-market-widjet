@@ -13,7 +13,7 @@ class MapsWidget extends BaseWidget
         $address = $widgetSettings["address"]["mobile"];
 
         $apiKey = $widgetSettings["apiKey"]["mobile"];
-
+        $style =$widgetSettings["headlineStyle"]["mobile"];
         // echo($widgetSettings);
 
         if (empty($address) || empty($apiKey))
@@ -22,7 +22,8 @@ class MapsWidget extends BaseWidget
                 "geocoding_data" => [
                     
                     "address" => "colombo",
-                    "apiKey" => "22"
+                    "apiKey" => "22",
+                    "style" => $style
                 ]
             ];
         }else{
@@ -30,7 +31,8 @@ class MapsWidget extends BaseWidget
                 "geocoding_data" => [
                     
                     "address" => "ratnapura",
-                    "apiKey" => $apiKey
+                    "apiKey" => $apiKey,
+                    "style" => $style
                 ]
             ];
         }
