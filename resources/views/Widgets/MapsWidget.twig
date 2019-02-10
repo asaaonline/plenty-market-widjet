@@ -1,21 +1,15 @@
-{# {% if geocoding_data is empty %} #}
+{% if geocoding_data is empty %}
     <div  class="test">
         <p style="color:blue;">asela ddddd</p>>
             </div>
 
             <h1 id="t" class="test">changeee fbb ima hover</h1>
-   {# {{<pre>
-     {{ dump(geocoding_data) }}
-   </pre>}} #}
+   
       {# <div id="fb-share-button">
          <img src="{{ plugin_path("GoogleMapsWidget") }}/images/img.svg">
           <span>Share</span>
       </div> #}
- {# <ul id="navigation">
-        {% for item in geocoding_data %}
-            <li><a href="{{ item.address }}">{{ item }}</a></li>
-        {% endfor %}
-        </ul> #}
+
 
  <div class="row">
             <div class="col-3">
@@ -95,4 +89,4 @@
 
             <script src="{{ plugin_path("GoogleMapsWidget") }}/js/dist/jquery-3.3.1.js"></script>
             <script src="{{ plugin_path("GoogleMapsWidget") }}/js/dist/bootbox.min.js"></script>
-{# {% endif %} #}
+{% endif %}
