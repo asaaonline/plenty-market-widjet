@@ -22,7 +22,7 @@ class MapsWidget extends BaseWidget
                 "geocoding_data" => [
                     
                     "address" => "colombo",
-                    "apiKey" => $apiKey
+                    "apiKey" => "22"
                 ]
             ];
         }else{
