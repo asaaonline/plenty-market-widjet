@@ -110,12 +110,12 @@ $(document).ready(function () {
 
     ///////////////////////pinterest//////////////////////////////////////
 
-    var pinOneButton = document.querySelector('.pinterest');
-    pinOneButton.addEventListener('click', function (e) {
+    // var pinOneButton = document.querySelector('.pinterest');
+    // pinOneButton.addEventListener('click', function (e) {
 
 
-        PinUtils.pinAny();
-    });
+    //     PinUtils.pinAny();
+    // });
 
 
     //skype//////////////////////
