@@ -198,7 +198,7 @@ $(document).ready(function () {
         if (result.length == 1) {
             switch (style) {
                 case "one": {
-                    var id2 = $('#' + id).closest('.row').find('img').attr('src', '{{ plugin_path("GoogleMapsWidget") }}/img/' + id + '_selected.png');
+                    var id2 = $('#' + id).closest('.row').find('img').attr('src', '{{ plugin_path("GoogleMapsWidget") }}/images/' + id + '_selected.png');
                 }
                     break;
                 case "one": {
