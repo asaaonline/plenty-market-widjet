@@ -1,96 +1,272 @@
 {# {% if geocoding_data is not empty %} #}
-    <div  class="test">
+    
         <p style="color:blue;">asela ddddd</p>>
             </div>
 
-            <h1 id="t" class="test">changeee fbb ima hover</h1>
+            <h1 id="t" class="test">new start</h1>
    
       {# <div id="fb-share-button">
          <img src="{{ plugin_path("GoogleMapsWidget") }}/images/img.svg">
           <span>Share</span>
       </div> #}
 
-
- <div class="row">
+        <div class="row">
             <div class="col-3">
-              <div class="row">
-                <div  class="col-2">
-                    <label class="switch">
-                        <input type="checkbox">
-                        <span class="slider round"></span>
-                      </label>
+                <div class="row">
+                    <div class="col-2">
+                        <label class="switch">
+                            <input styles="one" id="fbCheck" class="check" type="checkbox">
+                            <span class="slider round"></span>
+                        </label>
 
-                </div>  
-                <div id="fb-share-button" class="col-5 pic"><img src="{{ plugin_path("GoogleMapsWidget") }}/images/img.svg"></div>  
-                <div class="col-5"></div>
-                
-              </div>
-                
-            
+                    </div>
+                    <div id="fb-share-button" class="col-5 pic"><img id="kl" src="{{ plugin_path('GoogleMapsWidget') }}/images/fbCheck_unselected.png"></div>
+                    <div class="col-5"></div>
+
+                </div>
+
+            </div>
+            {# <div class="col-3">
+                <div class="row">
+                    <div class="col-2">
+                        <label class="switch">
+                            <input id="fun" class="check"  type="checkbox">
+                            <span class="slider round"></span>
+                        </label>
+
+                    </div>
+                    <div id="fb-share-button" class="col-5 pic"><img src="./img.svg"></div>
+                    <div class="col-5"></div>
+
+                </div>
+
             </div>
             <div class="col-3">
                 <div class="row">
-                  <div  class="col-2">
-                      <label class="switch">
-                          <input id="fun" onclick="test('game')" type="checkbox">
-                          <span class="slider round"></span>
-                        </label>
-  
-                  </div>  
-                  <div id="fb-share-button" class="col-5 pic"><img src="{{ plugin_path("GoogleMapsWidget") }}/images/img.svg"></div>  
-                  <div class="col-5"></div>
-                  
-                </div>
-                  
-              
-              </div>
-              <div class="col-3">
-                  <div class="row">
-                    <div  class="col-2">
+                    <div class="col-2">
                         <label class="switch">
-                            <input type="checkbox">
+                            <input id="not" class="check" type="checkbox">
                             <span class="slider round"></span>
-                          </label>
-    
-                    </div>  
-                    <div id="link_id" class="col-5 pic"><a href="#"><img src="{{ plugin_path("GoogleMapsWidget") }}/images/img.svg"></a></div>  
+                        </label>
+
+                    </div>
+                    <div id="link_id" class="col-5 pic">
+                        <a href="#"><img src="./img.svg"></a>
+                    </div>
                     <div class="col-5"></div>
-                    
-                  </div>
-                    
-                
+
                 </div>
-                <div class="col-3">
-                    <div class="row">
-                      <div  class="col-2">
-                          <label class="switch">
-                              <input type="checkbox">
-                              <span class="slider round"></span>
-                            </label>
-      
-                      </div>  
-                      <div id="fb-share-button" class="col-5 pic">
-                        <a id="google" href="https://plus.google.com/share?url=https://www.facebook.com"  onclick="javascript:window.open(this.href,
+
+            </div>
+            <div class="col-3">
+                <div class="row">
+                    <div class="col-2">
+                        <label class="switch">
+                            <input styles="one" id="gooleCheck" class="check" type="checkbox">
+                            <span class="slider round"></span>
+                        </label>
+
+                    </div>
+                    <div class="col-5 pic">
+                        <a id="google" href="https://plus.google.com/share?url=https://www.facebook.com" onclick="javascript:window.open(this.href,
                         '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;">
-                        <img
-                        src="{{ plugin_path("GoogleMapsWidget") }}/images/img.svg" alt="Share on Google+"/>
-                      </a>
-                      </div>   
-                      <div class="col-5"></div>
+                            <img src="./img/googleCheck_unselected.png" alt="Share on Google+"/>
+                        </a>
+                    </div>
+                    <div class="col-5"></div>
+
+                </div>
+
+            </div> #}
+        </div>
+
+        {# <div class="row">
+            <div class="col-3">
+                <div class="row">
+                    <div class="col-2">
+                        <label class="switch">
+                            <input styles="one" id="tinyCheck" class="check" type="checkbox">
+                            <span class="slider round"></span>
+                        </label>
+
+                    </div>
+                    <div  class="col-5 pic">
+                      
+                        <a class="social pinterest"
+                        data-media="http://tinyurl.com/p3rqf54"
+                        data-description="A delicious burger">
+                        <img src="./img/tinyCheck_unselected.png">
+                    </a>
                       
                     </div>
+                    <div class="col-5"></div>
+
+                </div>
+
+            </div>
+            <div class="col-3">
+                <div class="row">
+                    <div class="col-2">
+                        <label class="switch">
+                            <input styles="one" id="skypeCheck" class="check" type="checkbox">
+                            <span class="slider round"></span>
+                        </label>
+
+                    </div>
+                    <div class="col-5 pic">
+                        <div class='skype-share' data-href='' data-lang='' data-text='' data-style=''  style='text-align:center;width:100px;margin:auto;height:22px;background-color:#00AFF0;color:white;'>
+                            <img src="./img/skypeCheck_unselected.png"> 
+                        </div>
+                           
+                        
                       
-                  
-                  </div>
-        </di
+                    </div>
+                    <div class="col-5"></div>
+
+                </div>
+
+            </div>
+            <div class="col-3">
+                <div class="row">
+                    <div class="col-2">
+                        <label class="switch">
+                            <input styles="one" id="xingCheck" class="check" type="checkbox">
+                            <span class="slider round"></span>
+                        </label>
+
+                    </div>
+                    <div  class="col-5 pic">
+                     
+                          <a href="#" id="xing"><img src="./img/xinfCheck_unselected.png"></a>
+                    </div>
+                    <div class="col-5"></div>
+
+                </div>
+
+            </div>
+            <div class="col-3">
+                <div class="row">
+                    <div class="col-2">
+                        <label class="switch">
+                            <input styles="one" id="tumblrCheck" class="check" type="checkbox">
+                            <span class="slider round"></span>
+                        </label>
+
+                    </div>
+                    <div class="col-5 pic">
+                        <a href="#" id="tumblr">
+                            <img src="./" />
+                   </a>
+                    </div>
+                    <div class="col-5"></div>
+
+                </div>
+
+            </div>
+        </div>
 
 
 
 
+        <div class="row">
+            <div class="col-3">
+                <div class="row">
+                    <div class="col-2">
+                        <label class="switch">
+                            <input styles="one" class="check" id="redditCheck" type="checkbox">
+                            <span class="slider round"></span>
+                        </label>
+
+                    </div>
+                    <div  class="col-5 pic">
+                      
+                        <a id="reddit">
+                        <img src="./img/redditCheck_unselected.png">
+                    </a>
+                      
+                    </div>
+                    <div class="col-5"></div>
+
+                </div>
+
+            </div>
+            <div class="col-3">
+                <div class="row">
+                    <div class="col-2">
+                        <label class="switch">
+                            <input styles="one" id="fun" onclick="test('game')" type="checkbox">
+                            <span class="slider round"></span>
+                        </label>
+
+                    </div>
+                    <div class="col-5 pic">
+                        <div class='skype-share' data-href='' data-lang='' data-text='' data-style=''  style='text-align:center;width:100px;margin:auto;height:22px;background-color:#00AFF0;color:white;'>
+                            <img src="./"> 
+                        </div>
+                           
+                        
+                      
+                    </div>
+                    <div class="col-5"></div>
+
+                </div>
+
+            </div>
+            <div class="col-3">
+                <div class="row">
+                    <div class="col-2">
+                        <label class="switch">
+                            <input styles="one" type="checkbox">
+                            <span class="slider round"></span>
+                        </label>
+
+                    </div>
+                    <div  class="col-5 pic">
+                     
+                          <a href="#" id="xing"><img src="./img.svg"></a>
+                    </div>
+                    <div class="col-5"></div>
+
+                </div>
+
+            </div>
+            <div class="col-3">
+                <div class="row">
+                    <div class="col-2">
+                        <label class="switch">
+                            <input styles="one" type="checkbox">
+                            <span class="slider round"></span>
+                        </label>
+
+                    </div>
+                    <div class="col-5 pic">
+                        <a href="#" id="tumblr">
+                            <img src="./img.svg" />
+                   </a>
+                    </div>
+                    <div class="col-5"></div>
+
+                </div>
+
+            </div>
+        </div> #}
+
+      	
+  
+
+ 
+
+
+
+
+
+
+    
             <script src="{{ plugin_path("GoogleMapsWidget") }}/js/dist/jquery-3.3.1.js"></script>
             {# <script src="{{ plugin_path("GoogleMapsWidget") }}/js/dist/bootbox.min.js"></script> #}
 {# {% endif %} #}
 
+        <script async defer src="//assets.pinterest.com/js/pinit.js"></script>
 
 {% if geocoding_data is not empty %}
 <div>
