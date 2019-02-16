@@ -198,15 +198,15 @@ $(document).ready(function () {
         if (result.length == 1) {
             switch (style) {
                 case "one": {
-                    var id2 = $('#' + id).closest('.row').find('img').attr('src', './img/' + id + '_selected.png');
+                    var id2 = $('#' + id).closest('.row').find('img').attr('src', '{{ plugin_path("GoogleMapsWidget") }}/images/' + id + '_selected.png');
                 }
                     break;
                 case "one": {
-                    var id2 = $('#' + id).closest('.row').find('img').attr('src', './img/' + id + '_selected2.png');
+                    var id2 = $('#' + id).closest('.row').find('img').attr('src', '{{ plugin_path("GoogleMapsWidget") }}/images/' + id + '_selected2.png');
                 }
                     break;
                 case "one": {
-                    var id2 = $('#' + id).closest('.row').find('img').attr('src', './img/' + id + '_selected3.png');
+                    var id2 = $('#' + id).closest('.row').find('img').attr('src', '{{ plugin_path("GoogleMapsWidget") }}/images/' + id + '_selected3.png');
                 }
                     break;
             }
@@ -220,7 +220,7 @@ $(document).ready(function () {
     
     
     function uncheck(id) {
-        $('#' + id).closest('.row').find('img').attr('src', './img/' + id + '_unselected.png')
+        $('#' + id).closest('.row').find('img').attr('src', '{{ plugin_path("GoogleMapsWidget") }}/images/' + id + '_unselected.png')
     
     }
 
