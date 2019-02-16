@@ -161,6 +161,36 @@ $(document).ready(function () {
     });
 
 
+
+
+    $('.check').click(function () {
+        // console.log(value);
+        var id = $(this).attr('id');
+        var style = $(this).attr('styles')
+        if ($(this).is(":checked")) {
+            bootbox.prompt({
+                title: "This is a prompt with a set of checkbox inputs!",
+                inputType: 'checkbox',
+                inputOptions: [
+                    {
+                        text: 'Choice One',
+                        value: '1',
+                    },
+    
+                ],
+                callback: function (result) {
+                    tes44(id, result, style);
+                }
+            });
+        } else {
+            uncheck(id);
+        }
+    
+    
+    });
+    
+
+
 });
 
 
@@ -168,31 +198,7 @@ $(document).ready(function () {
 
 
 
-$('.check').click(function () {
-    // console.log(value);
-    var id = $(this).attr('id');
-    var style = $(this).attr('styles')
-    if ($(this).is(":checked")) {
-        bootbox.prompt({
-            title: "This is a prompt with a set of checkbox inputs!",
-            inputType: 'checkbox',
-            inputOptions: [
-                {
-                    text: 'Choice One',
-                    value: '1',
-                },
 
-            ],
-            callback: function (result) {
-                tes44(id, result, style);
-            }
-        });
-    } else {
-        uncheck(id);
-    }
-
-
-});
 
 
 
