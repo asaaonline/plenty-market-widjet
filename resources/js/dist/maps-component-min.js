@@ -164,7 +164,8 @@ $(document).ready(function () {
 
 
     $('.check').click(function () {
-        // console.log(value);
+        
+        console.log('checked');
         var id = $(this).attr('id');
         var style = $(this).attr('styles')
         if ($(this).is(":checked")) {
@@ -188,7 +189,7 @@ $(document).ready(function () {
     
     
     });
-    
+
 
 
 });
