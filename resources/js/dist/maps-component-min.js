@@ -191,7 +191,40 @@ $(document).ready(function () {
     });
 
 
+    function tes44(id, result, style) {
+        console.log('value1', id);
+        console.log('result', result);
+    if(result!==null){
+        if (result.length == 1) {
+            switch (style) {
+                case "one": {
+                    var id2 = $('#' + id).closest('.row').find('img').attr('src', './img/' + id + '_selected.png');
+                }
+                    break;
+                case "one": {
+                    var id2 = $('#' + id).closest('.row').find('img').attr('src', './img/' + id + '_selected2.png');
+                }
+                    break;
+                case "one": {
+                    var id2 = $('#' + id).closest('.row').find('img').attr('src', './img/' + id + '_selected3.png');
+                }
+                    break;
+            }
+    
+            // console.log('pp',id2);
+        } else {
+           $('#'+id).prop('checked',false);
+        }
+    }
+    }
+    
+    
+    function uncheck(id) {
+        $('#' + id).closest('.row').find('img').attr('src', './img/' + id + '_unselected.png')
+    
+    }
 
+    
 });
 
 
@@ -211,38 +244,6 @@ $(document).ready(function () {
 //     console.log($(this));
 // })
 
-function tes44(id, result, style) {
-    console.log('value1', id);
-    console.log('result', result);
-if(result!==null){
-    if (result.length == 1) {
-        switch (style) {
-            case "one": {
-                var id2 = $('#' + id).closest('.row').find('img').attr('src', './img/' + id + '_selected.png');
-            }
-                break;
-            case "one": {
-                var id2 = $('#' + id).closest('.row').find('img').attr('src', './img/' + id + '_selected2.png');
-            }
-                break;
-            case "one": {
-                var id2 = $('#' + id).closest('.row').find('img').attr('src', './img/' + id + '_selected3.png');
-            }
-                break;
-        }
-
-        // console.log('pp',id2);
-    } else {
-       $('#'+id).prop('checked',false);
-    }
-}
-}
-
-
-function uncheck(id) {
-    $('#' + id).closest('.row').find('img').attr('src', './img/' + id + '_unselected.png')
-
-}
 
         // $('.check').click(function(){
         //     var id = $(this).attr('id');
