@@ -90,11 +90,13 @@ $(document).ready(function () {
     var url = "http://www.facebook.com";
 
     fbButton.addEventListener('click', function () {
+        if($("#fb-share-button").attr("avalability")==='true'){
         window.open('https://www.facebook.com/sharer/sharer.php?u=' + url,
             'facebook-share-dialog',
             'width=800,height=600'
         );
         return false;
+        }
     });
 
 
