@@ -17,7 +17,10 @@ class MapsWidget extends BaseWidget
         // echo($widgetSettings);
         $facebook=$widgetSettings["facebook"]["mobile"];
         $checkfacebook=$widgetSettings["checkfacebook"]["mobile"];
-        if (empty($address) || empty($apiKey||empty($facebook)))
+        $checkLinkedin=$widgetSettings["checkLinkedin"]["mobile"];
+        $checkGoogle=$widgetSettings["checkGoogle"]["mobile"];
+        $checkPinterest=$widgetSettings["checkPinterest"]["mobile"];
+        if (empty($address) || empty($apiKey)||empty($facebook))
         {
             return [
                 "geocoding_data" => [
@@ -25,7 +28,10 @@ class MapsWidget extends BaseWidget
                     "address" => "colombo",
                     "apiKey" => "22",
                     "style" => $style,
-                    "checkfacebook" => $checkfacebook
+                    "checkfacebook" => $checkfacebook,
+                    "checkLinkedin" => $checkLinkedin,
+                    "checkGoogle"=> $checkGoogle,
+                    "checkPinterest" => $checkPinterest
                 ]
             ];
         }else{
@@ -35,7 +41,10 @@ class MapsWidget extends BaseWidget
                     "address" => "ratnapura",
                     "apiKey" => $apiKey,
                     "style" => $style,
-                    "checkfacebook" => $checkfacebook
+                    "checkfacebook" => $checkfacebook,
+                    "checkLinkedin" => $checkLinkedin,
+                    "checkGoogle"=> $checkGoogle,
+                     "checkPinterest" => $checkPinterest
                 ]
             ];
         }
