@@ -25,12 +25,12 @@
                     "tooltip": "Widget.mapsAddressTooltip"
                 }
             },
-            "ddf": {
+            "facebook": {
                 "type": "textarea",
                 "required": true,
                 "defaultValue": "",
                 "options": {
-                    "name": "Widget.mapsAddressLabel",
+                    "name": "Widget.facebookLabel",
                     "tooltip": "Widget.mapsAddressTooltip"
                 }
             },
