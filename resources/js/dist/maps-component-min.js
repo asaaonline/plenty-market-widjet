@@ -67,6 +67,8 @@
 
 $(document).ready(function () {
     var x = document.URL;
+
+    $('[data-toggle="tooltip"]').tooltip();  
     console.log("ready!");
     $(".test").hover(
         function () {
