@@ -33,8 +33,15 @@
                     "name": "Widget.facebookLabel",
                     "tooltip": "Widget.facebookLabel"
                 }
+            },   
+            "checkfacebook": {
+                "type": "checkbox",    
+                "options": {
+                    "name": "Widget.facebookLabel",
+                    "tooltip": "Widget.facebookLabel"
+                }
             },
-            "gsdf": {
+            "Pinterest": {
                 "type": "textarea",
                 "required": true,
                 "defaultValue": "",
@@ -43,7 +50,14 @@
                     "tooltip": "Widget.mapsAddressTooltip"
                 }
             },
-            "hafg": {
+            "checkPinterest": {
+                "type": "checkbox",    
+                "options": {
+                    "name": "Widget.facebookLabel",
+                    "tooltip": "Widget.facebookLabel"
+                }
+            },
+            "Skype": {
                 "type": "textarea",
                 "required": true,
                 "defaultValue": "",
@@ -52,7 +66,7 @@
                     "tooltip": "Widget.mapsAddressTooltip"
                 }
             },
-            "dfsg": {
+            "Google": {
                 "type": "textarea",
                 "required": true,
                 "defaultValue": "",
@@ -61,7 +75,7 @@
                     "tooltip": "Widget.mapsAddressTooltip"
                 }
             },
-            "ghjgh": {
+            "Linkedin": {
                 "type": "textarea",
                 "required": true,
                 "defaultValue": "",
@@ -70,7 +84,7 @@
                     "tooltip": "Widget.mapsAddressTooltip"
                 }
             },
-            "ergsd": {
+            "Xing": {
                 "type": "textarea",
                 "required": true,
                 "defaultValue": "",
@@ -79,7 +93,7 @@
                     "tooltip": "Widget.mapsAddressTooltip"
                 }
             },
-            "ghdf": {
+            "tumblr": {
                 "type": "textarea",
                 "required": true,
                 "defaultValue": "",
@@ -88,7 +102,7 @@
                     "tooltip": "Widget.mapsAddressTooltip"
                 }
             },
-            "fdfgfgsdg": {
+            "reddit": {
                 "type": "textarea",
                 "required": true,
                 "defaultValue": "",
@@ -97,7 +111,7 @@
                     "tooltip": "Widget.mapsAddressTooltip"
                 }
             },
-            "dfghdh": {
+            "stumbleupon": {
                 "type": "textarea",
                 "required": true,
                 "defaultValue": "",
@@ -106,7 +120,43 @@
                     "tooltip": "Widget.mapsAddressTooltip"
                 }
             },
-            "dfgsdfg": {
+            "digg": {
+                "type": "textarea",
+                "required": true,
+                "defaultValue": "",
+                "options": {
+                    "name": "Widget.mapsAddressLabel",
+                    "tooltip": "Widget.mapsAddressTooltip"
+                }
+            },
+            "Flattr": {
+                "type": "textarea",
+                "required": true,
+                "defaultValue": "",
+                "options": {
+                    "name": "Widget.mapsAddressLabel",
+                    "tooltip": "Widget.mapsAddressTooltip"
+                }
+            },
+            "buffer": {
+                "type": "textarea",
+                "required": true,
+                "defaultValue": "",
+                "options": {
+                    "name": "Widget.mapsAddressLabel",
+                    "tooltip": "Widget.mapsAddressTooltip"
+                }
+            },
+            "Vkontakte": {
+                "type": "textarea",
+                "required": true,
+                "defaultValue": "",
+                "options": {
+                    "name": "Widget.mapsAddressLabel",
+                    "tooltip": "Widget.mapsAddressTooltip"
+                }
+            },
+            "WhatsApp": {
                 "type": "textarea",
                 "required": true,
                 "defaultValue": "",
