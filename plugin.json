@@ -6,7 +6,7 @@
     "description": "This is the Google Maps Widget for the Shop Builder developed by plentymarkets.",
     "author": "plentymarkets GmbH",
     "license": "AGPL-3.0",
-    "pluginIcon": "icon_plugin_xs.png",
+    "pluginIcon": "",
     "price": 0.0,
     "shortDescription": {
         "de": "",
