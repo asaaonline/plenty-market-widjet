@@ -199,6 +199,7 @@ $(document).ready(function () {
             switch (style) {
                 case "one": {
                     var id2 = $('#' + id).closest('.row').find('img').attr('src', main+'/images/' + id + '_selected.png');
+                    
                 }
                     break;
                 case "one": {
@@ -210,20 +211,23 @@ $(document).ready(function () {
                 }
                     break;
             }
-    
+            $('#' + id).closest('.row').find('img').parents().attr('avalability','true');
             // console.log('pp',id2);
         } else {
+            $('#' + id).closest('.row').find('img').parents().attr('avalability','false');
            $('#'+id).prop('checked',false);
         }
     }else{
         uncheck(id);
+
     }
     }
     
     
     function uncheck(id) {
+        $('#'+id).prop('checked',false);
         $('#' + id).closest('.row').find('img').attr('src', main+'/images/' + id + '_unselected.png')
-    
+        $('#' + id).closest('.row').find('img').parents().attr('avalability','false');
     }
 
     
