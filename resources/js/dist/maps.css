@@ -112,3 +112,7 @@ body {
   .e {
     display:flex;align-items:center;
   }
+
+  #mainDiv {
+    width: 100%;
+  }
