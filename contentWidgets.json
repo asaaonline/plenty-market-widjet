@@ -42,113 +42,199 @@
                 }
             },
             "Pinterest": {
-                "type": "textarea",
+                "type": "text",
                 "required": true,
                 "defaultValue": "",
                 "options": {
-                    "name": "Widget.mapsAddressLabel",
+                    "name": "Widget.PinterestLabel",
                     "tooltip": "Widget.mapsAddressTooltip"
                 }
             },
             "checkPinterest": {
                 "type": "checkbox",    
                 "options": {
-                    "name": "Widget.facebookLabel",
-                    "tooltip": "Widget.facebookLabel"
+                    "name": "Widget.PinterestLabel",
+                    "tooltip": "Widget.PinterestLabel"
                 }
             },
             "Skype": {
-                "type": "textarea",
+                "type": "text",
                 "required": true,
                 "defaultValue": "",
                 "options": {
-                    "name": "Widget.mapsAddressLabel",
+                    "name": "Widget.SkypeLabel",
                     "tooltip": "Widget.mapsAddressTooltip"
+                }
+            },
+            "checkSkype": {
+                "type": "checkbox",    
+                "options": {
+                    "name": "Widget.SkypeLabel",
+                    "tooltip": "Widget.SkypeLabel"
                 }
             },
             "Google": {
-                "type": "textarea",
+                "type": "text",
                 "required": true,
                 "defaultValue": "",
                 "options": {
-                    "name": "Widget.mapsAddressLabel",
+                    "name": "Widget.GoogleLabel",
                     "tooltip": "Widget.mapsAddressTooltip"
+                }
+            },
+            "checkGoogle": {
+                "type": "checkbox",    
+                "options": {
+                    "name": "Widget.GoogleLabel",
+                    "tooltip": "Widget.GoogleLabel"
                 }
             },
             "Linkedin": {
-                "type": "textarea",
+                "type": "text",
                 "required": true,
                 "defaultValue": "",
                 "options": {
-                    "name": "Widget.mapsAddressLabel",
+                    "name": "Widget.LinkedinLabel",
                     "tooltip": "Widget.mapsAddressTooltip"
+                }
+            },
+            "checkLinkedin": {
+                "type": "checkbox",    
+                "options": {
+                    "name": "Widget.LinkedinLabel",
+                    "tooltip": "Widget.LinkedinLabel"
                 }
             },
             "Xing": {
-                "type": "textarea",
+                "type": "text",
                 "required": true,
                 "defaultValue": "",
                 "options": {
-                    "name": "Widget.mapsAddressLabel",
+                    "name": "Widget.XingLabel",
                     "tooltip": "Widget.mapsAddressTooltip"
+                }
+            },
+            "checkXing": {
+                "type": "checkbox",    
+                "options": {
+                    "name": "Widget.XingLabel",
+                    "tooltip": "Widget.XingLabel"
                 }
             },
             "tumblr": {
-                "type": "textarea",
+                "type": "text",
                 "required": true,
                 "defaultValue": "",
                 "options": {
-                    "name": "Widget.mapsAddressLabel",
+                    "name": "Widget.tumblrLabel",
                     "tooltip": "Widget.mapsAddressTooltip"
+                }
+            },
+            "checktumblr": {
+                "type": "checkbox",    
+                "options": {
+                    "name": "Widget.tumblrLabel",
+                    "tooltip": "Widget.facebookLabel"
                 }
             },
             "reddit": {
-                "type": "textarea",
+                "type": "text",
                 "required": true,
                 "defaultValue": "",
                 "options": {
-                    "name": "Widget.mapsAddressLabel",
+                    "name": "Widget.redditLabel",
                     "tooltip": "Widget.mapsAddressTooltip"
+                }
+            },
+            "checkreddit": {
+                "type": "checkbox",    
+                "options": {
+                    "name": "Widget.redditLabel",
+                    "tooltip": "Widget.facebookLabel"
                 }
             },
             "stumbleupon": {
-                "type": "textarea",
+                "type": "text",
                 "required": true,
                 "defaultValue": "",
                 "options": {
-                    "name": "Widget.mapsAddressLabel",
+                    "name": "Widget.stumbleuponLabel",
                     "tooltip": "Widget.mapsAddressTooltip"
+                }
+            },
+            "checkstumbleupon": {
+                "type": "checkbox",    
+                "options": {
+                    "name": "Widget.stumbleuponLabel",
+                    "tooltip": "Widget.facebookLabel"
                 }
             },
             "digg": {
-                "type": "textarea",
+                "type": "text",
                 "required": true,
                 "defaultValue": "",
                 "options": {
-                    "name": "Widget.mapsAddressLabel",
+                    "name": "Widget.diggLabel",
                     "tooltip": "Widget.mapsAddressTooltip"
+                }
+            },
+            "checkdigg": {
+                "type": "checkbox",    
+                "options": {
+                    "name": "Widget.diggLabel",
+                    "tooltip": "Widget.facebookLabel"
                 }
             },
             "Flattr": {
-                "type": "textarea",
+                "type": "text",
                 "required": true,
                 "defaultValue": "",
                 "options": {
-                    "name": "Widget.mapsAddressLabel",
+                    "name": "Widget.FlattrLabel",
                     "tooltip": "Widget.mapsAddressTooltip"
+                }
+            },
+            "checkFlattr": {
+                "type": "checkbox",    
+                "options": {
+                    "name": "Widget.FlattrLabel",
+                    "tooltip": "Widget.FlattrLabel"
                 }
             },
             "buffer": {
-                "type": "textarea",
+                "type": "text",
                 "required": true,
                 "defaultValue": "",
                 "options": {
-                    "name": "Widget.mapsAddressLabel",
-                    "tooltip": "Widget.mapsAddressTooltip"
+                    "name": "Widget.bufferLabel",
+                    "tooltip": "Widget.bufferTooltip"
+                }
+            },
+            "checkbuffer": {
+                "type": "checkbox",    
+                "options": {
+                    "name": "Widget.bufferLabel",
+                    "tooltip": "Widget.bufferLabel"
                 }
             },
             "Vkontakte": {
-                "type": "textarea",
+                "type": "text",
+                "required": true,
+                "defaultValue": "",
+                "options": {
+                    "name": "Widget.VkontakteLabel",
+                    "tooltip": "Widget.VkontakteTooltip"
+                }
+            },
+            "checkVkontakte": {
+                "type": "checkbox",    
+                "options": {
+                    "name": "Widget.VkontakteLabel",
+                    "tooltip": "Widget.VkontakteLabel"
+                }
+            },
+            "WhatsApp": {
+                "type": "text",
                 "required": true,
                 "defaultValue": "",
                 "options": {
@@ -156,13 +242,11 @@
                     "tooltip": "Widget.mapsAddressTooltip"
                 }
             },
-            "WhatsApp": {
-                "type": "textarea",
-                "required": true,
-                "defaultValue": "",
+            "checkWhatsApp": {
+                "type": "checkbox",    
                 "options": {
-                    "name": "Widget.mapsAddressLabel",
-                    "tooltip": "Widget.mapsAddressTooltip"
+                    "name": "Widget.facebookLabel",
+                    "tooltip": "Widget.facebookLabel"
                 }
             },
             "zoom": {
