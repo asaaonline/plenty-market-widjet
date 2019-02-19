@@ -20,7 +20,7 @@ class MapsWidget extends BaseWidget
         {
             return [
                 "geocoding_data" => [
-                    "facobook"=>"facebook",
+                    "facebook"=>"facebook",
                     "address" => "colombo",
                     "apiKey" => "22",
                     "style" => $style
@@ -29,7 +29,7 @@ class MapsWidget extends BaseWidget
         }else{
             return [
                 "geocoding_data" => [
-                    "facobook"=>$facebook,
+                    "facebook"=>$facebook,
                     "address" => "ratnapura",
                     "apiKey" => $apiKey,
                     "style" => $style
