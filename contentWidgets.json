@@ -25,7 +25,7 @@
                     "tooltip": "Widget.mapsAddressTooltip"
                 }
             },
-            "address": {
+            "ddf": {
                 "type": "textarea",
                 "required": true,
                 "defaultValue": "",
@@ -34,7 +34,7 @@
                     "tooltip": "Widget.mapsAddressTooltip"
                 }
             },
-            "address": {
+            "gsdf": {
                 "type": "textarea",
                 "required": true,
                 "defaultValue": "",
@@ -43,7 +43,7 @@
                     "tooltip": "Widget.mapsAddressTooltip"
                 }
             },
-            "address": {
+            "hafg": {
                 "type": "textarea",
                 "required": true,
                 "defaultValue": "",
@@ -52,7 +52,7 @@
                     "tooltip": "Widget.mapsAddressTooltip"
                 }
             },
-            "address": {
+            "dfsg": {
                 "type": "textarea",
                 "required": true,
                 "defaultValue": "",
@@ -61,7 +61,7 @@
                     "tooltip": "Widget.mapsAddressTooltip"
                 }
             },
-            "address": {
+            "ghjgh": {
                 "type": "textarea",
                 "required": true,
                 "defaultValue": "",
@@ -70,7 +70,7 @@
                     "tooltip": "Widget.mapsAddressTooltip"
                 }
             },
-            "address": {
+            "ergsd": {
                 "type": "textarea",
                 "required": true,
                 "defaultValue": "",
@@ -79,7 +79,7 @@
                     "tooltip": "Widget.mapsAddressTooltip"
                 }
             },
-            "address": {
+            "ghdf": {
                 "type": "textarea",
                 "required": true,
                 "defaultValue": "",
@@ -88,7 +88,7 @@
                     "tooltip": "Widget.mapsAddressTooltip"
                 }
             },
-            "address": {
+            "fdfgfgsdg": {
                 "type": "textarea",
                 "required": true,
                 "defaultValue": "",
@@ -97,7 +97,7 @@
                     "tooltip": "Widget.mapsAddressTooltip"
                 }
             },
-            "address": {
+            "dfghdh": {
                 "type": "textarea",
                 "required": true,
                 "defaultValue": "",
@@ -106,7 +106,7 @@
                     "tooltip": "Widget.mapsAddressTooltip"
                 }
             },
-            "address": {
+            "dfgsdfg": {
                 "type": "textarea",
                 "required": true,
                 "defaultValue": "",
