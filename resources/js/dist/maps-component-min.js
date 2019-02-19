@@ -215,6 +215,8 @@ $(document).ready(function () {
         } else {
            $('#'+id).prop('checked',false);
         }
+    }else{
+        uncheck(id);
     }
     }
     
