@@ -16,6 +16,7 @@ class MapsWidget extends BaseWidget
         $style =$widgetSettings["headlineStyle"]["mobile"];
         // echo($widgetSettings);
         $facebook=$widgetSettings["facebook"]["mobile"];
+        $checkfacebook=$widgetSettings["checkfacebook"]["mobile"];
         if (empty($address) || empty($apiKey||empty($facebook)))
         {
             return [
@@ -23,7 +24,8 @@ class MapsWidget extends BaseWidget
                     "facebook"=>"facebook",
                     "address" => "colombo",
                     "apiKey" => "22",
-                    "style" => $style
+                    "style" => $style,
+                    "checkfacebook" => $checkfacebook
                 ]
             ];
         }else{
@@ -32,7 +34,8 @@ class MapsWidget extends BaseWidget
                     "facebook"=>$facebook,
                     "address" => "ratnapura",
                     "apiKey" => $apiKey,
-                    "style" => $style
+                    "style" => $style,
+                    "checkfacebook" => $checkfacebook
                 ]
             ];
         }
