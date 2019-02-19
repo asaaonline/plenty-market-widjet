@@ -15,12 +15,12 @@ class MapsWidget extends BaseWidget
         $apiKey = $widgetSettings["apiKey"]["mobile"];
         $style =$widgetSettings["headlineStyle"]["mobile"];
         // echo($widgetSettings);
-
-        if (empty($address) || empty($apiKey))
+        $facebook=$widgetSettings["facebook"]["mobile"];
+        if (empty($address) || empty($apiKey||empty($facebook)))
         {
             return [
                 "geocoding_data" => [
-                    
+                    "facobook"=>'facebook',
                     "address" => "colombo",
                     "apiKey" => "22",
                     "style" => $style
@@ -29,7 +29,7 @@ class MapsWidget extends BaseWidget
         }else{
             return [
                 "geocoding_data" => [
-                    
+                    "facobook"=>$facebook,
                     "address" => "ratnapura",
                     "apiKey" => $apiKey,
                     "style" => $style
