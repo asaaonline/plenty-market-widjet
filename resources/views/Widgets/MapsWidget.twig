@@ -269,7 +269,8 @@ var main = '{{ plugin_path("GoogleMapsWidget") }}';
             {# <script src="{{ plugin_path("GoogleMapsWidget") }}/js/dist/bootbox.min.js"></script> #}
 {# {% endif %} #}
 
-
+<link rel="stylesheet" href="{{ plugin_path('GoogleMapsWidget') }}/js/dist/maps.css">
+        <link rel="stylesheet" href="{{ plugin_path('GoogleMapsWidget') }}/js/dist/test.css">
         <script async defer src="//assets.pinterest.com/js/pinit.js"></script>
 {# 
 {% if geocoding_data is not empty %}
@@ -281,7 +282,6 @@ var main = '{{ plugin_path("GoogleMapsWidget") }}';
 {% if geocoding_data.apiKey == "333" %}
 <div id="to">blueeee</div>
 <div>{{geocoding_data.style}}</div>
-<link rel="stylesheet" href="{{ plugin_path('GoogleMapsWidget') }}/js/dist/maps.css">
-        <link rel="stylesheet" href="{{ plugin_path('GoogleMapsWidget') }}/js/dist/test.css">
+
 {% endif %}
 {% endif %} #}
