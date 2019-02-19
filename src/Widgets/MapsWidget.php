@@ -20,6 +20,18 @@ class MapsWidget extends BaseWidget
         $checkLinkedin=$widgetSettings["checkLinkedin"]["mobile"];
         $checkGoogle=$widgetSettings["checkGoogle"]["mobile"];
         $checkPinterest=$widgetSettings["checkPinterest"]["mobile"];
+        $checkSkype=$widgetSettings["checkSkype"]["mobile"];
+        $checkXing=$widgetSettings["checkXing"]["mobile"];
+        $checktumblr=$widgetSettings["checktumblr"]["mobile"];
+        $checkreddit=$widgetSettings["checkreddit"]["mobile"];
+        $checkstumbleupon=$widgetSettings["checkstumbleupon"]["mobile"];
+        $checkdigg=$widgetSettings["checkdigg"]["mobile"];
+        $checkFlattr=$widgetSettings["checkFlattr"]["mobile"];
+        $checkbuffer=$widgetSettings["checkbuffer"]["mobile"];
+        $checkVkontakte=$widgetSettings["checkVkontakte"]["mobile"];
+        $checkWhatsApp=$widgetSettings["checkWhatsApp"]["mobile"];
+        
+
         if (empty($address) || empty($apiKey)||empty($facebook))
         {
             return [
@@ -31,8 +43,19 @@ class MapsWidget extends BaseWidget
                     "checkfacebook" => $checkfacebook,
                     "checkLinkedin" => $checkLinkedin,
                     "checkGoogle"=> $checkGoogle,
-                    "checkPinterest" => $checkPinterest
-                ]
+                    "checkPinterest" => $checkPinterest,
+                    "checkSkype" => $checkSkype,
+                    "checkXing" => $checkXing,
+                    "checktumblr" => $checktumblr,
+                    "checkreddit" => $checkreddit,
+                    "checkstumbleupon" => $checkstumbleupon,
+                    "checkdigg" => $checkdigg,
+                    "checkFlattr" => $checkFlattr,
+                    "checkbuffer" => $checkbuffer,
+                    "checkVkontakte" => $checkVkontakte,
+                    "checkWhatsApp" => $checkWhatsApp,
+                    
+                    ]
             ];
         }else{
             return [
@@ -44,7 +67,17 @@ class MapsWidget extends BaseWidget
                     "checkfacebook" => $checkfacebook,
                     "checkLinkedin" => $checkLinkedin,
                     "checkGoogle"=> $checkGoogle,
-                     "checkPinterest" => $checkPinterest
+                     "checkPinterest" => $checkPinterest,
+                     "checkSkype" => $checkSkype,
+                     "checkXing" => $checkXing,
+                     "checktumblr" => $checktumblr,
+                     "checkreddit" => $checkreddit,
+                     "checkstumbleupon" => $checkstumbleupon,
+                     "checkdigg" => $checkdigg,
+                     "checkFlattr" => $checkFlattr,
+                     "checkbuffer" => $checkbuffer,
+                     "checkVkontakte" => $checkVkontakte,
+                     "checkWhatsApp" => $checkWhatsApp,
                 ]
             ];
         }
