@@ -25,6 +25,96 @@
                     "tooltip": "Widget.mapsAddressTooltip"
                 }
             },
+            "address": {
+                "type": "textarea",
+                "required": true,
+                "defaultValue": "",
+                "options": {
+                    "name": "Widget.mapsAddressLabel",
+                    "tooltip": "Widget.mapsAddressTooltip"
+                }
+            },
+            "address": {
+                "type": "textarea",
+                "required": true,
+                "defaultValue": "",
+                "options": {
+                    "name": "Widget.mapsAddressLabel",
+                    "tooltip": "Widget.mapsAddressTooltip"
+                }
+            },
+            "address": {
+                "type": "textarea",
+                "required": true,
+                "defaultValue": "",
+                "options": {
+                    "name": "Widget.mapsAddressLabel",
+                    "tooltip": "Widget.mapsAddressTooltip"
+                }
+            },
+            "address": {
+                "type": "textarea",
+                "required": true,
+                "defaultValue": "",
+                "options": {
+                    "name": "Widget.mapsAddressLabel",
+                    "tooltip": "Widget.mapsAddressTooltip"
+                }
+            },
+            "address": {
+                "type": "textarea",
+                "required": true,
+                "defaultValue": "",
+                "options": {
+                    "name": "Widget.mapsAddressLabel",
+                    "tooltip": "Widget.mapsAddressTooltip"
+                }
+            },
+            "address": {
+                "type": "textarea",
+                "required": true,
+                "defaultValue": "",
+                "options": {
+                    "name": "Widget.mapsAddressLabel",
+                    "tooltip": "Widget.mapsAddressTooltip"
+                }
+            },
+            "address": {
+                "type": "textarea",
+                "required": true,
+                "defaultValue": "",
+                "options": {
+                    "name": "Widget.mapsAddressLabel",
+                    "tooltip": "Widget.mapsAddressTooltip"
+                }
+            },
+            "address": {
+                "type": "textarea",
+                "required": true,
+                "defaultValue": "",
+                "options": {
+                    "name": "Widget.mapsAddressLabel",
+                    "tooltip": "Widget.mapsAddressTooltip"
+                }
+            },
+            "address": {
+                "type": "textarea",
+                "required": true,
+                "defaultValue": "",
+                "options": {
+                    "name": "Widget.mapsAddressLabel",
+                    "tooltip": "Widget.mapsAddressTooltip"
+                }
+            },
+            "address": {
+                "type": "textarea",
+                "required": true,
+                "defaultValue": "",
+                "options": {
+                    "name": "Widget.mapsAddressLabel",
+                    "tooltip": "Widget.mapsAddressTooltip"
+                }
+            },
             "zoom": {
                 "type": "number",
                 "required": false,
