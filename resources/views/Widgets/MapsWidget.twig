@@ -274,11 +274,12 @@ var main = '{{ plugin_path("GoogleMapsWidget") }}';
 <link rel="stylesheet" href="{{ plugin_path('GoogleMapsWidget') }}/js/dist/maps.css">
         <link rel="stylesheet" href="{{ plugin_path('GoogleMapsWidget') }}/js/dist/test.css">
         <script async defer src="//assets.pinterest.com/js/pinit.js"></script>
-{# 
+ 
 {% if geocoding_data is not empty %}
 <div>
 {{geocoding_data.address}}
 {{geocoding_data.apiKey}}
+{{geocoding_data.facebook}}
 </div>
 
 {% if geocoding_data.apiKey == "333" %}
