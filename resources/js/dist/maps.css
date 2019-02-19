@@ -1,4 +1,4 @@
-.maps-component.map-3-1{padding-bottom:33%}.maps-component.map-2-1{padding-bottom:50%}.maps-component.map-1-1{padding-bottom:100%}
+/* .maps-component.map-3-1{padding-bottom:33%}.maps-component.map-2-1{padding-bottom:50%}.maps-component.map-1-1{padding-bottom:100%} */
 
 /*# sourceMappingURL=maps.css.map */
 
@@ -30,7 +30,7 @@ body {
 }
 
 .pic img {
-    width: 30px;
+    width: 3px;
     fill: white;
     vertical-align: middle;
     border-radius: 2px;
