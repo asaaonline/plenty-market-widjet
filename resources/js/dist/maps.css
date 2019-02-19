@@ -116,3 +116,7 @@ body {
   #mainDiv {
     width: 100%;
   }
+
+  img {
+    width: 40px;
+  }
