@@ -26,12 +26,12 @@
                 }
             },
             "facebook": {
-                "type": "textarea",
+                "type": "text",
                 "required": true,
-                "defaultValue": "",
+                "defaultValue": "test",
                 "options": {
                     "name": "Widget.facebookLabel",
-                    "tooltip": "Widget.mapsAddressTooltip"
+                    "tooltip": "Widget.facebookLabel"
                 }
             },
             "gsdf": {
