@@ -353,7 +353,7 @@
 
                     </div>
                     <div avalability='false' id="link_id" class="col-5 pic">
-                    <a class="stb stb-facebook_circle" href="#"><span class="stb-circle">{{geocoding_data.facebook}}</span></a>
+                    <a class="stb stb-linkedin_circle_mix" href="#"><span class="stb-circle">{{geocoding_data.facebook}}</span></a>
                         <img >
                     </div>
                     <div class="col-5"></div>
@@ -374,7 +374,7 @@
 
                     </div>
                     <div avalability='false' class="col-5 pic">
-                        <a class="stb stb-facebook_circle" id="google" href="https://plus.google.com/share?url=https://www.facebook.com" onclick="javascript:window.open(this.href,
+                        <a class="stb stb-googleplus_circle_mix" id="google" href="https://plus.google.com/share?url=https://www.facebook.com" onclick="javascript:window.open(this.href,
                         '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;">
                             <span class="stb-circle">{{geocoding_data.facebook}}</span>
                         </a>
@@ -399,7 +399,7 @@
                     </div>
                     <div  class="col-5 pic">
                       
-                        <a avalability='false' class="social pinterest stb stb-facebook_circle"
+                        <a avalability='false' class="social pinterest stb stb-pinterest_circle_mix"
                         data-media="http://tinyurl.com/p3rqf54"
                         data-description="A delicious burger">
                         <span class="stb-circle">{{geocoding_data.facebook}}</span>
@@ -428,7 +428,8 @@
                     </div>
                     <div class="col-5 pic">
                         <div avalability='false' class='skype-share' data-href='' data-lang='' data-text='' data-style=''  style='text-align:center;width:100px;margin:auto;height:22px;background-color:#00AFF0;color:white;'>
-                            <img data-toggle="tooltip" data-placement="top" title="{{geocoding_data.facebook}}" src="{{ plugin_path('GoogleMapsWidget') }}/images/skypeCheck_unselected.png"> 
+                        <a class="stb stb-skype_circle_mix" href="#"><span class="stb-circle">{{geocoding_data.facebook}}</span></a>
+                            <img> 
                         </div>
                            
                         
@@ -452,8 +453,8 @@
 
                     </div>
                     <div  class="col-5 pic">
-                     
-                          <a href="#" avalability='false' id="xing"><img data-toggle="tooltip" data-placement="top" title="{{geocoding_data.facebook}}" src="{{ plugin_path('GoogleMapsWidget') }}/images/xinfCheck_unselected.png"></a>
+
+                          <a class="stb stb-linkedin_circle_mix" href="#" avalability='false' id="xing"><span class="stb-circle">{{geocoding_data.facebook}}</span><img></a>
                     </div>
                     <div class="col-5"></div>
 
@@ -474,8 +475,10 @@
 
                     </div>
                     <div class="col-5 pic">
-                        <a href="#" id="tumblr">
-                            <img data-toggle="tooltip" data-placement="top" title="{{geocoding_data.facebook}}" src="./" />
+                                                            
+                        <a class="stb stb-tumblr_circle_mix" href="#" id="tumblr">
+                            <img  />
+                            <span class="stb-circle">{{geocoding_data.facebook}}</span>
                    </a>
                     </div>
                     <div class="col-5"></div>
@@ -499,9 +502,10 @@
 
                     </div>
                     <div  class="col-5 pic">
-                      
-                        <a avalability='false' id="reddit">
-                        <img data-toggle="tooltip" data-placement="top" title="{{geocoding_data.facebook}}" src="{{ plugin_path('GoogleMapsWidget') }}/images/redditCheck_unselected.png">
+                       
+                        <a  class="stb stb-reddit_circle_mix" avalability='false' id="reddit">
+                        <img >
+                        <span class="stb-circle">{{geocoding_data.facebook}}</span>
                     </a>
                       
                     </div>
@@ -614,7 +618,7 @@ var main = '{{ plugin_path("GoogleMapsWidget") }}';
 {% if geocoding_data is not empty %}
 <div>
 {{geocoding_data.checkfacebook}}
-{{geocoding_data.apiKey}}
+
 {{geocoding_data.facebook}}
 </div>
 
