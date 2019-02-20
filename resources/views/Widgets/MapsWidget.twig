@@ -352,8 +352,9 @@
                         </label>
 
                     </div>
-                    <div id="link_id" class="col-5 pic">
-                        <a href="#"><img data-toggle="tooltip" data-placement="top" title="{{geocoding_data.facebook}}"  ></a>
+                    <div avalability='false' id="link_id" class="col-5 pic">
+                    <a class="stb stb-facebook_circle" href="#"><span class="stb-circle">{{geocoding_data.facebook}}</span></a>
+                        <img >
                     </div>
                     <div class="col-5"></div>
 
@@ -372,11 +373,12 @@
                         </label>
 
                     </div>
-                    <div class="col-5 pic">
-                        <a avalability='false' id="google" href="https://plus.google.com/share?url=https://www.facebook.com" onclick="javascript:window.open(this.href,
+                    <div avalability='false' class="col-5 pic">
+                        <a class="stb stb-facebook_circle" id="google" href="https://plus.google.com/share?url=https://www.facebook.com" onclick="javascript:window.open(this.href,
                         '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;">
-                            <img data-toggle="tooltip" data-placement="top" title="{{geocoding_data.facebook}}" src="{{ plugin_path('GoogleMapsWidget') }}/images/googleCheck_unselected.png" alt="Share on Google+"/>
+                            <span class="stb-circle">{{geocoding_data.facebook}}</span>
                         </a>
+                        <img />
                     </div>
                     <div class="col-5"></div>
 
@@ -397,10 +399,11 @@
                     </div>
                     <div  class="col-5 pic">
                       
-                        <a avalability='false' class="social pinterest"
+                        <a avalability='false' class="social pinterest stb stb-facebook_circle"
                         data-media="http://tinyurl.com/p3rqf54"
                         data-description="A delicious burger">
-                        <img data-toggle="tooltip" data-placement="top" title="{{geocoding_data.facebook}}" src="{{ plugin_path('GoogleMapsWidget') }}/images/tinyCheck_unselected.png">
+                        <span class="stb-circle">{{geocoding_data.facebook}}</span>
+                        <img >
                     </a>
                       
                     </div>
