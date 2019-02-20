@@ -16,6 +16,21 @@ class MapsWidget extends BaseWidget
         $style =$widgetSettings["headlineStyle"]["mobile"];
         // echo($widgetSettings);
         $facebook=$widgetSettings["facebook"]["mobile"];
+        $Pinterest=$widgetSettings["Pinterest"]["mobile"];
+        $Skype=$widgetSettings["Skype"]["mobile"];
+        $Google=$widgetSettings["Google"]["mobile"];
+        $Linkedin=$widgetSettings["Linkedin"]["mobile"];
+        $Xing=$widgetSettings["Xing"]["mobile"];
+        $tumblr=$widgetSettings["tumblr"]["mobile"];
+        $reddit=$widgetSettings["reddit"]["mobile"];
+        $stumbleupon=$widgetSettings["stumbleupon"]["mobile"];
+        $digg=$widgetSettings["digg"]["mobile"];
+        $Flattr=$widgetSettings["Flattr"]["mobile"];
+        $buffer=$widgetSettings["buffer"]["mobile"];
+        $Vkontakte=$widgetSettings["Vkontakte"]["mobile"];
+        $WhatsApp=$widgetSettings["WhatsApp"]["mobile"];
+
+
         $checkfacebook=$widgetSettings["checkfacebook"]["mobile"];
         $checkLinkedin=$widgetSettings["checkLinkedin"]["mobile"];
         $checkGoogle=$widgetSettings["checkGoogle"]["mobile"];
@@ -54,6 +69,20 @@ class MapsWidget extends BaseWidget
                     "checkbuffer" => $checkbuffer,
                     "checkVkontakte" => $checkVkontakte,
                     "checkWhatsApp" => $checkWhatsApp,
+                    "Pinterest" => $Pinterest,
+                    "Skype" => $Skype,
+                    "Google" => $Google,
+                    "Linkedin" => $Linkedin,
+                    "Xing" => $Xing,
+                    "tumblr" => $tumblr,
+                    "reddit" => $reddit,
+                    "stumbleupon" => $stumbleupon,
+                    "digg" => $digg,
+                    "Flattr" => $Flattr,
+                    "buffer" => $buffer,
+                    "Vkontakte" => $Vkontakte,
+                    "WhatsApp" => $WhatsApp,
+                
                     
                     ]
             ];

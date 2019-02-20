@@ -8,7 +8,9 @@
       {# <div id="fb-share-button">
          <img src="{{ plugin_path("GoogleMapsWidget") }}/images/img.svg">
           <span>Share</span>
+
       </div> #}
+      {% if geocoding_data.style == 1 %}
 <div id="mainDiv">
         <div class="row">
 
@@ -288,7 +290,7 @@
       	</div>
   </div>
 
- 
+ {% endif %}
 
 <script>
 var main = '{{ plugin_path("GoogleMapsWidget") }}';
