@@ -292,6 +292,305 @@
 
  {% endif %}
 
+
+
+{# /////////////////////style2 //////////////////////////#}
+
+
+      {% if geocoding_data.style == 2 %}
+<div id="mainDiv">
+        <div class="row">
+
+        {% if geocoding_data.checkfacebook == true %}
+
+            <div class="col-3">
+                <div class="row">
+                    <div class="col-2">
+                        <label class="switch">
+                            <input styles="two" id="fbCheck" class="check" type="checkbox">
+                            <span class="slider round"></span>
+                        </label>
+
+                    </div>
+                    <div id="fb-share-button" avalability='false' class="col-5 pic">
+
+                    <a class="stb stb-facebook_circle" href="#"><span class="stb-circle">{{geocoding_data.facebook}}</span></a>
+                    <img   id="kl">
+                    </div>
+                    <div class="col-5"></div>
+
+                </div>
+
+            </div>
+{% endif %}
+
+            {% if geocoding_data.apiKey == "333" %}
+            <div class="col-3">
+                <div class="row">
+                    <div class="col-2">
+                        <label class="switch">
+                            <input id="fun" class="check"  type="checkbox">
+                            <span class="slider round"></span>
+                        </label>
+
+                    </div>
+                    <div data-toggle="tooltip" data-placement="top" title="face book" id="fb-share-button" class="col-5 pic"><img ></div>
+                    <div class="col-5"></div>
+
+                </div>
+
+            </div>
+{% endif %}
+
+            {% if geocoding_data.checkLinkedin == true %}
+            <div class="col-3">
+                <div class="row">
+                    <div class="col-2">
+                        <label class="switch">
+                            <input id="not" class="check" type="checkbox">
+                            <span class="slider round"></span>
+                        </label>
+
+                    </div>
+                    <div id="link_id" class="col-5 pic">
+                        <a href="#"><img data-toggle="tooltip" data-placement="top" title="{{geocoding_data.facebook}}"  ></a>
+                    </div>
+                    <div class="col-5"></div>
+
+                </div>
+
+            </div>
+
+{% endif %}
+            {% if geocoding_data.checkGoogle == true %}
+            <div class="col-3">
+                <div class="row">
+                    <div class="col-2">
+                        <label class="switch">
+                            <input styles="two" id="googleCheck" class="check" type="checkbox">
+                            <span class="slider round"></span>
+                        </label>
+
+                    </div>
+                    <div class="col-5 pic">
+                        <a avalability='false' id="google" href="https://plus.google.com/share?url=https://www.facebook.com" onclick="javascript:window.open(this.href,
+                        '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;">
+                            <img data-toggle="tooltip" data-placement="top" title="{{geocoding_data.facebook}}" src="{{ plugin_path('GoogleMapsWidget') }}/images/googleCheck_unselected.png" alt="Share on Google+"/>
+                        </a>
+                    </div>
+                    <div class="col-5"></div>
+
+                </div>
+
+            </div>
+   
+{% endif %}
+      {% if geocoding_data.checkPinterest == true %}
+            <div class="col-3">
+                <div class="row">
+                    <div class="col-2">
+                        <label class="switch">
+                            <input styles="two" id="tinyCheck" class="check" type="checkbox">
+                            <span class="slider round"></span>
+                        </label>
+
+                    </div>
+                    <div  class="col-5 pic">
+                      
+                        <a avalability='false' class="social pinterest"
+                        data-media="http://tinyurl.com/p3rqf54"
+                        data-description="A delicious burger">
+                        <img data-toggle="tooltip" data-placement="top" title="{{geocoding_data.facebook}}" src="{{ plugin_path('GoogleMapsWidget') }}/images/tinyCheck_unselected.png">
+                    </a>
+                      
+                    </div>
+                    <div class="col-5"></div>
+
+                </div>
+
+            </div>
+
+
+
+{% endif %}
+            {% if geocoding_data.checkSkype == true %}
+            <div class="col-3">
+                <div class="row">
+                    <div class="col-2">
+                        <label class="switch">
+                            <input styles="two" id="skypeCheck" class="check" type="checkbox">
+                            <span class="slider round"></span>
+                        </label>
+
+                    </div>
+                    <div class="col-5 pic">
+                        <div avalability='false' class='skype-share' data-href='' data-lang='' data-text='' data-style=''  style='text-align:center;width:100px;margin:auto;height:22px;background-color:#00AFF0;color:white;'>
+                            <img data-toggle="tooltip" data-placement="top" title="{{geocoding_data.facebook}}" src="{{ plugin_path('GoogleMapsWidget') }}/images/skypeCheck_unselected.png"> 
+                        </div>
+                           
+                        
+                      
+                    </div>
+                    <div class="col-5"></div>
+
+                </div>
+
+            </div>
+
+{% endif %}
+            {% if geocoding_data.checkXing == true %}
+            <div class="col-3">
+                <div class="row">
+                    <div class="col-2">
+                        <label class="switch">
+                            <input styles="two" id="xingCheck" class="check" type="checkbox">
+                            <span class="slider round"></span>
+                        </label>
+
+                    </div>
+                    <div  class="col-5 pic">
+                     
+                          <a href="#" avalability='false' id="xing"><img data-toggle="tooltip" data-placement="top" title="{{geocoding_data.facebook}}" src="{{ plugin_path('GoogleMapsWidget') }}/images/xinfCheck_unselected.png"></a>
+                    </div>
+                    <div class="col-5"></div>
+
+                </div>
+
+            </div>
+
+
+{% endif %}
+            {% if geocoding_data.checktumblr == true %}
+            <div class="col-3">
+                <div class="row">
+                    <div class="col-2">
+                        <label class="switch">
+                            <input styles="two" id="tumblrCheck" class="check" type="checkbox">
+                            <span class="slider round"></span>
+                        </label>
+
+                    </div>
+                    <div class="col-5 pic">
+                        <a href="#" id="tumblr">
+                            <img data-toggle="tooltip" data-placement="top" title="{{geocoding_data.facebook}}" src="./" />
+                   </a>
+                    </div>
+                    <div class="col-5"></div>
+
+                </div>
+
+            </div>
+      
+
+
+{% endif %}
+{% if geocoding_data.checkreddit == true %}
+     
+            <div class="col-3">
+                <div class="row">
+                    <div class="col-2">
+                        <label class="switch">
+                            <input styles="two" class="check" id="redditCheck" type="checkbox">
+                            <span class="slider round"></span>
+                        </label>
+
+                    </div>
+                    <div  class="col-5 pic">
+                      
+                        <a avalability='false' id="reddit">
+                        <img data-toggle="tooltip" data-placement="top" title="{{geocoding_data.facebook}}" src="{{ plugin_path('GoogleMapsWidget') }}/images/redditCheck_unselected.png">
+                    </a>
+                      
+                    </div>
+                    <div class="col-5"></div>
+
+                </div>
+
+            </div>
+
+            {% endif %}
+            {% if geocoding_data.apiKey == "333" %}
+            <div class="col-3">
+                <div class="row">
+                    <div class="col-2">
+                        <label class="switch">
+                            <input styles="two" id="fun" onclick="test('game')" type="checkbox">
+                            <span class="slider round"></span>
+                        </label>
+
+                    </div>
+                    <div class="col-5 pic">
+                        <div class='skype-share' data-href='' data-lang='' data-text='' data-style=''  style='text-align:center;width:100px;margin:auto;height:22px;background-color:#00AFF0;color:white;'>
+                            <img src="./"> 
+                        </div>
+                           
+                        
+                      
+                    </div>
+                    <div class="col-5"></div>
+
+                </div>
+
+            </div>
+
+{% endif %}
+            {% if geocoding_data.apiKey == "333" %}
+            <div class="col-3">
+                <div class="row">
+                    <div class="col-2">
+                        <label class="switch">
+                            <input styles="two" type="checkbox">
+                            <span class="slider round"></span>
+                        </label>
+
+                    </div>
+                    <div  class="col-5 pic">
+                     
+                          <a href="#" id="xing"><img ></a>
+                    </div>
+                    <div class="col-5"></div>
+
+                </div>
+
+            </div>
+{% endif %}
+            {% if geocoding_data.apiKey == "333" %}
+            <div class="col-3">
+                <div class="row">
+                    <div class="col-2">
+                        <label class="switch">
+                            <input styles="two" type="checkbox">
+                            <span class="slider round"></span>
+                        </label>
+
+                    </div>
+                    <div class="col-5 pic">
+                        <a href="#" id="tumblr">
+                            <img  />
+                   </a>
+                    </div>
+                    <div class="col-5"></div>
+
+                </div>
+
+            </div>
+            {% endif %}
+        
+      	</div>
+  </div>
+<link rel="stylesheet" href="{{ plugin_path('GoogleMapsWidget') }}/js/dist/maps.css">
+   <link rel="stylesheet" type="text/css" href="{{ plugin_path('GoogleMapsWidget') }}/js/dist/stb.css"/>
+
+ {% endif %}
+
+
+
+
+
+
+
+
+
 <script>
 var main = '{{ plugin_path("GoogleMapsWidget") }}';
 

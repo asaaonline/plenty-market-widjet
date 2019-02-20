@@ -1,0 +1,19 @@
+* {margin:0; padding:0;}
+a * {border: 0;} 
+body {
+ 	background-color: #d0defe;
+    background-image: -webkit-linear-gradient(left, rgba(255,255,255,.0), rgba(255,255,255,.3));
+    background-image: -o-linear-gradient(left, rgba(255,255,255,.0), rgba(255,255,255,.3));
+    background-image: -moz-linear-gradient(left, rgba(255,255,255,.0), rgba(255,255,255,.3));
+    background-image: linear-gradient(left, rgba(255,255,255,.0), rgba(255,255,255,.3));
+}
+.pattern {background: #d0defe url(../images/bg.png) repeat;}
+
+.footer {font-family:'Pontano Sans'; font-size:13px; color: #000; text-align:center; margin:20px 0 5px 0;}
+.footer a {color: #000; text-decoration:none;}
+
+.title {font-family:'Pontano Sans'; font-size:28px; margin:0 auto 20px auto; width:800px; padding:20px 0 20px 0; border: 1px #000 solid; background: rgba(255,255,255,0.5); text-align:center;}
+.title_small {font-family:'Pontano Sans'; font-size:22px; text-align:center; margin:80px auto 0 auto; font-weight:bold; width:800px; padding:10px 0 10px 0; background: rgba(255,255,255,0.5);}
+.copy {background: rgba(208,208,208,0.5); width:720px; padding:40px; margin:40px auto 0 auto;}
+.mtxt {text-align:left; width:720px; color:#333;}
+.mtxt_font {font-family:'Pontano Sans'; font-size:16px;}
