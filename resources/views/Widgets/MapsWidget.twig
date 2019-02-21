@@ -614,6 +614,7 @@
 
                     </div>
                     <div id="fb-share-button" avalability='false' class="col-5 pic">
+                    <img />
                     <a class="socialuttons" data-socialuttons="facebook" href="#"  data-toggle="tooltip" data-placement="top" title="{{geocoding_data.facebook}}" id="kl"></a>
                     </div>
                     <div class="col-5"></div>
@@ -672,9 +673,9 @@
 
                     </div>
                     <div class="col-5 pic">
-                        <a avalability='false' id="google" href="https://plus.google.com/share?url=https://www.facebook.com" onclick="javascript:window.open(this.href,
+                        <a class="socialuttons" data-socialuttons="google" id="google" href="https://plus.google.com/share?url=https://www.facebook.com" onclick="javascript:window.open(this.href,
                         '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;">
-                            <img data-toggle="tooltip" data-placement="top" title="{{geocoding_data.Google}}" src="{{ plugin_path('GoogleMapsWidget') }}/images/googleCheck_unselected.png" alt="Share on Google+"/>
+                            <img data-toggle="tooltip" data-placement="top" title="{{geocoding_data.Google}}" />
                         </a>
                     </div>
                     <div class="col-5"></div>
@@ -696,10 +697,10 @@
                     </div>
                     <div  class="col-5 pic">
                       
-                        <a avalability='false' class="social pinterest"
+                        <a class="socialuttons" data-socialuttons="pinterest" avalability='false' class="social pinterest"
                         data-media="http://tinyurl.com/p3rqf54"
                         data-description="A delicious burger">
-                        <img data-toggle="tooltip" data-placement="top" title="{{geocoding_data.Pinterest}}" src="{{ plugin_path('GoogleMapsWidget') }}/images/tinyCheck_unselected.png">
+                        <img data-toggle="tooltip" data-placement="top" title="{{geocoding_data.Pinterest}}"/>
                     </a>
                       
                     </div>
@@ -723,8 +724,9 @@
 
                     </div>
                     <div class="col-5 pic">
-                        <div avalability='false' class='skype-share' data-href='' data-lang='' data-text='' data-style=''  style='text-align:center;width:100px;margin:auto;height:22px;background-color:#00AFF0;color:white;'>
-                            <img data-toggle="tooltip" data-placement="top" title="{{geocoding_data.Skype}}" src="{{ plugin_path('GoogleMapsWidget') }}/images/skypeCheck_unselected.png"> 
+                        <div data-toggle="tooltip" data-placement="top" title="{{geocoding_data.Skype}}" avalability='false' class='skype-share' data-href='' data-lang='' data-text='' data-style=''  style='text-align:center;width:100px;margin:auto;height:22px;background-color:#00AFF0;color:white;'>
+                            <a class="socialuttons" data-socialuttons="skype" href="#" ></a>
+                            <img  > 
                         </div>
                            
                         
