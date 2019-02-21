@@ -1,0 +1,7 @@
+.socialuttons:before, .socialuttons:after { transition:all 0.3s ease-in-out; -webkit-transition: all 0.3s ease-in-out; -ms-transition: all 0.3s ease-in-out; }
+
+.socialuttons:before { left:0; }
+.socialuttons:hover:before { left:-100%; }
+
+.socialuttons:after { left:100%; }
+.socialuttons:hover:after { left:0; }

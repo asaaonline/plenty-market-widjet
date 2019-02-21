@@ -1,0 +1,157 @@
+/*
+Socialuttons - The Ultimate Social Button Kit
+by Dawid Czerwoński
+2014
+
+w: www.czerwonski.pl
+e: dawid@czerwonski.pl
+m: 0048 533 99 55 77
+
+This Software is protected by copyright law and licensed (not sold). You can buy a license on codecanyon.net
+*/
+
+@font-face {
+    font-family: 'socicon';
+    src: url('../_fonts/socicon-webfont.eot');
+    src: url('../_fonts/socicon-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../_fonts/socicon-webfont.woff') format('woff'),
+         url('../_fonts/socicon-webfont.ttf') format('truetype'),
+         url('../_fonts/socicon-webfont.svg#sociconregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Base styles */
+a.socialuttons { overflow:hidden; display:block; width:32px; height:32px; font-size:0px; position:relative; text-decoration:none; font-family:'socicon' }
+a.socialuttons:before, a.socialuttons:after  { font-family:'socicon';  border:none; position:absolute; font-size:17px; display:block; width:32px; height:32px; text-decoration:none; text-align:center; line-height:32px;}
+
+
+
+/* Socicon letters */
+a.socialuttons[data-socialuttons='twitter']:before { content:"a";}
+a.socialuttons[data-socialuttons='facebook']:before { content:"b";}
+a.socialuttons[data-socialuttons='google']:before { content:"c";}
+a.socialuttons[data-socialuttons='pinterest']:before { content:"d";}
+a.socialuttons[data-socialuttons='foursquare']:before { content:"e";}
+a.socialuttons[data-socialuttons='yahoo']:before { content:"f";}
+a.socialuttons[data-socialuttons='skype']:before { content:"g";}
+a.socialuttons[data-socialuttons='yelp']:before { content:"h";}
+a.socialuttons[data-socialuttons='feedburner']:before { content:"i";}
+a.socialuttons[data-socialuttons='linkedin']:before { content:"j";}
+a.socialuttons[data-socialuttons='viadeo']:before { content:"k";}
+a.socialuttons[data-socialuttons='xing']:before { content:"l";}
+a.socialuttons[data-socialuttons='myspace']:before { content:"m";}
+a.socialuttons[data-socialuttons='soundcloud']:before { content:"n";}
+a.socialuttons[data-socialuttons='spotify']:before { content:"o";}
+a.socialuttons[data-socialuttons='grooveshark']:before { content:"p";}
+a.socialuttons[data-socialuttons='lastfm']:before { content:"q";}
+a.socialuttons[data-socialuttons='youtube']:before { content:"r";}
+a.socialuttons[data-socialuttons='vimeo']:before { content:"s";}
+a.socialuttons[data-socialuttons='dailymotion']:before { content:"t";}
+a.socialuttons[data-socialuttons='vine']:before { content:"u";}
+a.socialuttons[data-socialuttons='flickr']:before { content:"v";}
+a.socialuttons[data-socialuttons='500px']:before { content:"w";}
+a.socialuttons[data-socialuttons='instagram']:before { content:"x";}
+a.socialuttons[data-socialuttons='wordpress']:before { content:"y";}
+a.socialuttons[data-socialuttons='tumblr']:before { content:"z";}
+a.socialuttons[data-socialuttons='blogger']:before { content:"A";}
+a.socialuttons[data-socialuttons='technorati']:before { content:"B";}
+a.socialuttons[data-socialuttons='reddit']:before { content:"C";}
+a.socialuttons[data-socialuttons='dribbble']:before { content:"D";}
+a.socialuttons[data-socialuttons='stumbleupon']:before { content:"E";}
+a.socialuttons[data-socialuttons='digg']:before { content:"F";}
+a.socialuttons[data-socialuttons='envato']:before { content:"G";}
+a.socialuttons[data-socialuttons='behance']:before { content:"H";}
+a.socialuttons[data-socialuttons='delicious']:before { content:"I";}
+a.socialuttons[data-socialuttons='deviantart']:before { content:"J";}
+a.socialuttons[data-socialuttons='forrst']:before { content:"K";}
+a.socialuttons[data-socialuttons='play']:before { content:"L";}
+a.socialuttons[data-socialuttons='zerply']:before { content:"M";}
+a.socialuttons[data-socialuttons='wikipedia']:before { content:"N";}
+a.socialuttons[data-socialuttons='apple']:before { content:"O";}
+a.socialuttons[data-socialuttons='flattr']:before { content:"P";}
+a.socialuttons[data-socialuttons='github']:before { content:"Q";}
+a.socialuttons[data-socialuttons='chimein']:before { content:"R";}
+a.socialuttons[data-socialuttons='friendfeed']:before { content:"S";}
+a.socialuttons[data-socialuttons='newsvine']:before { content:"T";}
+a.socialuttons[data-socialuttons='identica']:before { content:"U";}
+a.socialuttons[data-socialuttons='bebo']:before { content:"V";}
+a.socialuttons[data-socialuttons='zynga']:before { content:"W";}
+a.socialuttons[data-socialuttons='steam']:before { content:"X";}
+a.socialuttons[data-socialuttons='xbox']:before { content:"Y";}
+a.socialuttons[data-socialuttons='windows']:before { content:"Z";}
+a.socialuttons[data-socialuttons='outlook']:before { content:"1";}
+a.socialuttons[data-socialuttons='coderwall']:before { content:"2";}
+a.socialuttons[data-socialuttons='tripadvisor']:before { content:"3";}
+a.socialuttons[data-socialuttons='netcodes']:before { content:"4";}
+a.socialuttons[data-socialuttons='easid']:before { content:"5";}
+a.socialuttons[data-socialuttons='lanyrd']:before { content:"7";}
+a.socialuttons[data-socialuttons='slideshare']:before { content:"8";}
+a.socialuttons[data-socialuttons='buffer']:before { content:"9";}
+a.socialuttons[data-socialuttons='rss']:before { content: ",";}
+a.socialuttons[data-socialuttons='vkontakte']:before { content:";";}
+a.socialuttons[data-socialuttons='disqus']:before { content:":";}
+
+a.socialuttons[data-socialuttons='twitter']:after { content:"a";}
+a.socialuttons[data-socialuttons='facebook']:after { content:"b";}
+a.socialuttons[data-socialuttons='google']:after { content:"c";}
+a.socialuttons[data-socialuttons='pinterest']:after { content:"d";}
+a.socialuttons[data-socialuttons='foursquare']:after { content:"e";}
+a.socialuttons[data-socialuttons='yahoo']:after { content:"f";}
+a.socialuttons[data-socialuttons='skype']:after { content:"g";}
+a.socialuttons[data-socialuttons='yelp']:after { content:"h";}
+a.socialuttons[data-socialuttons='feedburner']:after { content:"i";}
+a.socialuttons[data-socialuttons='linkedin']:after { content:"j";}
+a.socialuttons[data-socialuttons='viadeo']:after { content:"k";}
+a.socialuttons[data-socialuttons='xing']:after { content:"l";}
+a.socialuttons[data-socialuttons='myspace']:after { content:"m";}
+a.socialuttons[data-socialuttons='soundcloud']:after { content:"n";}
+a.socialuttons[data-socialuttons='spotify']:after { content:"o";}
+a.socialuttons[data-socialuttons='grooveshark']:after { content:"p";}
+a.socialuttons[data-socialuttons='lastfm']:after { content:"q";}
+a.socialuttons[data-socialuttons='youtube']:after { content:"r";}
+a.socialuttons[data-socialuttons='vimeo']:after { content:"s";}
+a.socialuttons[data-socialuttons='dailymotion']:after { content:"t";}
+a.socialuttons[data-socialuttons='vine']:after { content:"u";}
+a.socialuttons[data-socialuttons='flickr']:after { content:"v";}
+a.socialuttons[data-socialuttons='500px']:after { content:"w";}
+a.socialuttons[data-socialuttons='instagram']:after { content:"x";}
+a.socialuttons[data-socialuttons='wordpress']:after { content:"y";}
+a.socialuttons[data-socialuttons='tumblr']:after { content:"z";}
+a.socialuttons[data-socialuttons='blogger']:after { content:"A";}
+a.socialuttons[data-socialuttons='technorati']:after { content:"B";}
+a.socialuttons[data-socialuttons='reddit']:after { content:"C";}
+a.socialuttons[data-socialuttons='dribbble']:after { content:"D";}
+a.socialuttons[data-socialuttons='stumbleupon']:after { content:"E";}
+a.socialuttons[data-socialuttons='digg']:after { content:"F";}
+a.socialuttons[data-socialuttons='envato']:after { content:"G";}
+a.socialuttons[data-socialuttons='behance']:after { content:"H";}
+a.socialuttons[data-socialuttons='delicious']:after { content:"I";}
+a.socialuttons[data-socialuttons='deviantart']:after { content:"J";}
+a.socialuttons[data-socialuttons='forrst']:after { content:"K";}
+a.socialuttons[data-socialuttons='play']:after { content:"L";}
+a.socialuttons[data-socialuttons='zerply']:after { content:"M";}
+a.socialuttons[data-socialuttons='wikipedia']:after { content:"N";}
+a.socialuttons[data-socialuttons='apple']:after { content:"O";}
+a.socialuttons[data-socialuttons='flattr']:after { content:"P";}
+a.socialuttons[data-socialuttons='github']:after { content:"Q";}
+a.socialuttons[data-socialuttons='chimein']:after { content:"R";}
+a.socialuttons[data-socialuttons='friendfeed']:after { content:"S";}
+a.socialuttons[data-socialuttons='newsvine']:after { content:"T";}
+a.socialuttons[data-socialuttons='identica']:after { content:"U";}
+a.socialuttons[data-socialuttons='bebo']:after { content:"V";}
+a.socialuttons[data-socialuttons='zynga']:after { content:"W";}
+a.socialuttons[data-socialuttons='steam']:after { content:"X";}
+a.socialuttons[data-socialuttons='xbox']:after { content:"Y";}
+a.socialuttons[data-socialuttons='windows']:after { content:"Z";}
+a.socialuttons[data-socialuttons='outlook']:after { content:"1";}
+a.socialuttons[data-socialuttons='coderwall']:after { content:"2";}
+a.socialuttons[data-socialuttons='tripadvisor']:after { content:"3";}
+a.socialuttons[data-socialuttons='netcodes']:after { content:"4";}
+a.socialuttons[data-socialuttons='easid']:after { content:"5";}
+a.socialuttons[data-socialuttons='lanyrd']:after { content:"7";}
+a.socialuttons[data-socialuttons='slideshare']:after { content:"8";}
+a.socialuttons[data-socialuttons='buffer']:after { content:"9";}
+a.socialuttons[data-socialuttons='rss']:after { content: ",";}
+a.socialuttons[data-socialuttons='vkontakte']:after { content:";";}
+a.socialuttons[data-socialuttons='disqus']:after { content:":";}

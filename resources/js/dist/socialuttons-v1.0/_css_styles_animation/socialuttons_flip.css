@@ -1,0 +1,7 @@
+.socialuttons:before, .socialuttons:after , .socialuttons { transition:all 0.3s ease-in-out; -ms-transition:all 0.3s ease-in-out; -webkit-transition: all 0.5s ease-in-out; }
+
+.socialuttons:before { top:0; }
+.socialuttons:hover:before { top:0; transform:rotateY(360deg);-webkit-transform:rotateY(360deg);-ms-transform:rotateY(360deg);}
+
+.socialuttons:after { top:0; opacity:0; }
+.socialuttons:hover:after { top:0; opacity:1; transform:rotateY(360deg);-webkit-transform:rotateY(360deg);-ms-transform:rotateY(360deg);}
