@@ -126,7 +126,7 @@ $(document).ready(function () {
 
     //skype//////////////////////
     (function (r, d, s) {
-        if($("#skype").attr("avalability")==='true'){
+      
         r.loadSkypeWebSdkAsync = r.loadSkypeWebSdkAsync || function (p) {
             var js, sjs = d.getElementsByTagName(s)[0];
             if (d.getElementById(p.id)) { return; }
@@ -140,8 +140,9 @@ $(document).ready(function () {
             scriptToLoad: 'https://swx.cdn.skype.com/shared/v/latest/skypewebsdk.js',
             id: 'skype_web_sdk'
         };
+        if($("#skype").attr("avalability")==='true'){
         r.loadSkypeWebSdkAsync(p);
-    }
+        }
     })(window, document, 'script');
 
 
