@@ -108,8 +108,10 @@ $(document).ready(function () {
 
 
     $('#link_id').click(function () {
+        if($("#link_id").attr("avalability")==='true'){
         window.open(ur, 'window name', 'window settings');
         return false;
+        }
     });
 
     ///////////////////////pinterest//////////////////////////////////////
@@ -124,6 +126,7 @@ $(document).ready(function () {
 
     //skype//////////////////////
     (function (r, d, s) {
+        if($("#skype").attr("avalability")==='true'){
         r.loadSkypeWebSdkAsync = r.loadSkypeWebSdkAsync || function (p) {
             var js, sjs = d.getElementsByTagName(s)[0];
             if (d.getElementById(p.id)) { return; }
@@ -138,6 +141,7 @@ $(document).ready(function () {
             id: 'skype_web_sdk'
         };
         r.loadSkypeWebSdkAsync(p);
+    }
     })(window, document, 'script');
 
 
