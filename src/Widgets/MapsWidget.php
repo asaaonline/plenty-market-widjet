@@ -50,7 +50,7 @@ class MapsWidget extends BaseWidget
    
             return [
                 "geocoding_data" => [
-                    "facebook"=>"facebook",
+                    "facebook"=>$facebook,
                     "address" => "colombo",
                     "apiKey" => "22",
                     "style" => $style,
