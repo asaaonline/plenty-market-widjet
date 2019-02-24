@@ -151,16 +151,20 @@ $(document).ready(function () {
     var xingUrl = "https://www.xing.com/spi/shares/new?url=" + x;
     $('#xing').click(function () {
         console.log('press');
+        if($("#xing").attr("avalability")==='true'){
         window.open(xingUrl, 'window name', 'window settings');
         return false;
+        }
     });
 
     /////////////////////////////////// tumblrUrl/////////////////
     var tumblrUrl = "http://tumblr.com/widgets/share/tool?canonicalUrl=" + x
     $('#tumblr').click(function () {
         console.log('press');
+        if($("#tumblr").attr("avalability")==='true'){
         window.open(tumblrUrl, 'window name', 'window settings');
         return false;
+        }
     });
 
 
@@ -168,8 +172,10 @@ $(document).ready(function () {
     var redditUrl = "http://www.reddit.com/submit?url=" + x
     $('#reddit').click(function () {
         console.log('press');
+        if($("#reddit").attr("avalability")==='true'){
         window.open(redditUrl, 'window name', 'window settings');
         return false;
+        }
     });
 
 
@@ -178,65 +184,81 @@ $(document).ready(function () {
   var whatsappUrl = "whatsapp://send?text=" + x
     $('#whatsapp').click(function () {
         console.log('press whatsApp');
+        if($("#whatsapp").attr("avalability")==='true'){
         window.open(whatsappUrl, 'window name', 'window settings');
         return false;
+        }
     });
 
 
 /////////////////////////////Flattr/////////////////////////////////////////
 var FlattrppUrl = "https://flattr.com/submit/auto?url=" + x
-$('#Flattr').click(function () {
+$('#flattr').click(function () {
     console.log('press Flattr');
+    if($("#flattr").attr("avalability")==='true'){
     window.open(FlattrppUrl, 'window name', 'window settings');
     return false;
+    }
 });
 
 /////////////////////////////buffer/////////////////////////////////////////
-var bufferUrl = "https://bufferapp.com/add?url="+x+"&amp;text=Simple Share Buttons"
+var bufferUrl = "https://bufferapp.com/add?url="+x
 $('#buffer').click(function () {
     console.log('press buffer');
+    if($("#buffer").attr("avalability")==='true'){
     window.open(bufferUrl, 'window name', 'window settings');
     return false;
+    }
 });
 
 /////////////////////////////Vkontakte/////////////////////////////////////////
 var VkontakteUrl = "http://vkontakte.ru/share.php?url=" + x
 $('#Vkontakte').click(function () {
     console.log('press Vkontakte' );
+    if($("#Vkontakte").attr("avalability")==='true'){
     window.open(VkontakteUrl, 'window name', 'window settings');
     return false;
+    }
 });
 
 /////////////////////////////stumbleupon/////////////////////////////////////////
 var stumbleuponUrl = "http://www.stumbleupon.com/submit?url="+x+"&amp;title=Simple Share Buttons"
 $('#stumbleupon').click(function () {
     console.log('press');
+    if($("#stumbleupon").attr("avalability")==='true'){
     window.open(stumbleuponUrl, 'window name', 'window settings');
     return false;
+    }
 });
 
 /////////////////////////////digg/////////////////////////////////////////
 var diggUrl = "http://www.digg.com/submit?url=" + x
 $('#digg').click(function () {
     console.log('press');
+    if($("#digg").attr("avalability")==='true'){
     window.open(diggUrl, 'window name', 'window settings');
     return false;
+    }
 });
 
 /////////////////////////////Yahoo/////////////////////////////////////////
-var YahooUrl = "whatsapp://send?text=" + x
+var YahooUrl = "http://compose.mail.yahoo.com/?body={url}" + x
 $('#Yahooapp').click(function () {
     console.log('press');
+    if($("#Yahooapp").attr("avalability")==='true'){
     window.open(YahooUrl, 'window name', 'window settings');
     return false;
+    }
 });
 
 /////////////////////////////blogger/////////////////////////////////////////
-var bloggerUrl = "whatsapp://send?text=" + x
+var bloggerUrl = "https://www.blogger.com/blog-this.g?u=" + x
 $('#blogger').click(function () {
     console.log('press');
+    if($("#blogger").attr("avalability")==='true'){
     window.open(bloggerUrl, 'window name', 'window settings');
     return false;
+    }
 });
 
 
