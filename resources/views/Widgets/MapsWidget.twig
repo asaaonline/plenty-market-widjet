@@ -734,7 +734,7 @@
 
                     </div>
                     <div class="col-5 pic">
-                    <a  class="stb stb-reddit_circle_mix" avalability='false' id="Yahoo">
+                    <a  class="stb stb-digg_circle_mix" avalability='false' id="Yahoo">
                         <img >
                         <span class="stb-circle">{{geocoding_data.buffer}}</span>
                     </a>
@@ -756,7 +756,7 @@
 
                     </div>
                     <div class="col-5 pic">
-                    <a  class="stb stb-reddit_circle_mix" avalability='false' id="blogger">
+                    <a  class="stb stb-blogger_circle_mix" avalability='false' id="blogger">
                         <img >
                         <span class="stb-circle">{{geocoding_data.buffer}}</span>
                     </a>
@@ -794,7 +794,7 @@
                 <div class="row">
                     <div class="col-2">
                         <label class="switch">
-                            <input styles="one" id="fbCheck" class="check" type="checkbox">
+                            <input styles="three" id="fbCheck" class="check" type="checkbox">
                             <span class="slider round"></span>
                         </label>
 
@@ -810,30 +810,14 @@
             </div>
 {% endif %}
 
-            {% if geocoding_data.apiKey == "333" %}
-            <div class="col-3">
-                <div class="row">
-                    <div class="col-2">
-                        <label class="switch">
-                            <input id="fun" class="check"  type="checkbox">
-                            <span class="slider round"></span>
-                        </label>
-
-                    </div>
-                    <div data-toggle="tooltip" data-placement="top" title="face book" id="fb-share-button" class="col-5 pic"><img ></div>
-                    <div class="col-5"></div>
-
-                </div>
-
-            </div>
-{% endif %}
+           
 
             {% if geocoding_data.checkLinkedin == true %}
             <div class="col-3">
                 <div class="row">
                     <div class="col-2">
                         <label class="switch">
-                            <input id="not" class="check" type="checkbox">
+                            <input styles="three" id="not" class="check" type="checkbox">
                             <span class="slider round"></span>
                         </label>
 
@@ -853,7 +837,7 @@
                 <div class="row">
                     <div class="col-2">
                         <label class="switch">
-                            <input styles="one" id="googleCheck" class="check" type="checkbox">
+                            <input styles="three" id="googleCheck" class="check" type="checkbox">
                             <span class="slider round"></span>
                         </label>
 
@@ -876,7 +860,7 @@
                 <div class="row">
                     <div class="col-2">
                         <label class="switch">
-                            <input styles="one" id="tinyCheck" class="check" type="checkbox">
+                            <input styles="three" id="tinyCheck" class="check" type="checkbox">
                             <span class="slider round"></span>
                         </label>
 
@@ -904,7 +888,7 @@
                 <div class="row">
                     <div class="col-2">
                         <label class="switch">
-                            <input styles="one" id="skypeCheck" class="check" type="checkbox">
+                            <input styles="three" id="skypeCheck" class="check" type="checkbox">
                             <span class="slider round"></span>
                         </label>
 
@@ -930,7 +914,7 @@
                 <div class="row">
                     <div class="col-2">
                         <label class="switch">
-                            <input styles="one" id="xingCheck" class="check" type="checkbox">
+                            <input styles="three" id="xingCheck" class="check" type="checkbox">
                             <span class="slider round"></span>
                         </label>
 
@@ -952,7 +936,7 @@
                 <div class="row">
                     <div class="col-2">
                         <label class="switch">
-                            <input styles="one" id="tumblrCheck" class="check" type="checkbox">
+                            <input styles="three" id="tumblrCheck" class="check" type="checkbox">
                             <span class="slider round"></span>
                         </label>
 
@@ -977,7 +961,7 @@
                 <div class="row">
                     <div class="col-2">
                         <label class="switch">
-                            <input styles="one" class="check" id="redditCheck" type="checkbox">
+                            <input styles="three" class="check" id="redditCheck" type="checkbox">
                             <span class="slider round"></span>
                         </label>
 
@@ -996,20 +980,20 @@
             </div>
 
             {% endif %}
-            {% if geocoding_data.apiKey == "333" %}
+          {% if geocoding_data.checkWhatsApp == true %}
             <div class="col-3">
                 <div class="row">
                     <div class="col-2">
                         <label class="switch">
-                            <input styles="one" id="fun" onclick="test('game')" type="checkbox">
+                            <input styles="three" id="WhatsappCheck" class="check" type="checkbox">
                             <span class="slider round"></span>
                         </label>
 
                     </div>
                     <div class="col-5 pic">
-                        <div class='skype-share' data-href='' data-lang='' data-text='' data-style=''  style='text-align:center;width:100px;margin:auto;height:22px;background-color:#00AFF0;color:white;'>
-                            <img src="./"> 
-                        </div>
+                        <a class="socialuttons" data-socialuttons="reddit" avalability='false' id="whatsapp">
+                        <img data-toggle="tooltip" data-placement="top" title="{{geocoding_data.whatsapp}}" >
+                    </a>
                            
                         
                       
@@ -1021,19 +1005,21 @@
             </div>
 
 {% endif %}
-            {% if geocoding_data.apiKey == "333" %}
+            {% if geocoding_data.checkFlattr == true %}
             <div class="col-3">
                 <div class="row">
                     <div class="col-2">
                         <label class="switch">
-                            <input styles="one" type="checkbox">
+                            <input styles="three" id="flattrCheck" type="checkbox">
                             <span class="slider round"></span>
                         </label>
 
                     </div>
                     <div  class="col-5 pic">
                      
-                          <a href="#" id="xing"><img ></a>
+                         <a class="socialuttons" data-socialuttons="flattr" avalability='false' id="flattr">
+                        <img data-toggle="tooltip" data-placement="top" title="{{geocoding_data.flattr}}" >
+                    </a>
                     </div>
                     <div class="col-5"></div>
 
@@ -1041,20 +1027,130 @@
 
             </div>
 {% endif %}
-            {% if geocoding_data.apiKey == "333" %}
+            {% if geocoding_data.checkbuffer == true %}
             <div class="col-3">
                 <div class="row">
                     <div class="col-2">
                         <label class="switch">
-                            <input styles="one" type="checkbox">
+                            <input id="bufferCheck" styles="three" class="check"  type="checkbox">
                             <span class="slider round"></span>
                         </label>
 
                     </div>
                     <div class="col-5 pic">
-                        <a href="#" id="tumblr">
-                            <img  />
-                   </a>
+                         <a class="socialuttons" data-socialuttons="buffer" avalability='false' id="buffer">
+                        <img data-toggle="tooltip" data-placement="top" title="{{geocoding_data.buffer}}" >
+                    </a>
+                    </div>
+                    <div class="col-5"></div>
+
+                </div>
+
+            </div>
+            {% endif %}
+
+              {% if geocoding_data.checkVkontakte == true %}
+            <div class="col-3">
+                <div class="row">
+                    <div class="col-2">
+                        <label class="switch">
+                            <input id="VkontakteCheck"  styles="three" class="check"  type="checkbox">
+                            <span class="slider round"></span>
+                        </label>
+
+                    </div>
+                    <div class="col-5 pic">
+                         <a class="socialuttons" data-socialuttons="vkontakte" avalability='false' id="Vkontakte">
+                        <img data-toggle="tooltip" data-placement="top" title="{{geocoding_data.Vkontakte}}" >
+                    </a>
+                    </div>
+                    <div class="col-5"></div>
+
+                </div>
+
+            </div>
+            {% endif %}
+
+              {% if geocoding_data.checkstumbleupon == true %}
+            <div class="col-3">
+                <div class="row">
+                    <div class="col-2">
+                        <label class="switch">
+                            <input id="stumbleuponCheck" styles="three"class="check"  type="checkbox">
+                            <span class="slider round"></span>
+                        </label>
+
+                    </div>
+                    <div class="col-5 pic">
+                         <a class="socialuttons" data-socialuttons="stumbleupon" avalability='false' id="stumbleupon">
+                        <img data-toggle="tooltip" data-placement="top" title="{{geocoding_data.stumbleupon}}" >
+                    </a>
+                    </div>
+                    <div class="col-5"></div>
+
+                </div>
+
+            </div>
+            {% endif %}
+
+              {% if geocoding_data.checkdigg == true %}
+            <div class="col-3">
+                <div class="row">
+                    <div class="col-2">
+                        <label id="diggCheck" class="switch">
+                            <input styles="three"class="check"  type="checkbox">
+                            <span class="slider round"></span>
+                        </label>
+
+                    </div>
+                    <div class="col-5 pic">
+                         <a class="socialuttons" data-socialuttons="digg" avalability='false' id="digg">
+                        <img data-toggle="tooltip" data-placement="top" title="{{geocoding_data.digg}}" >
+                    </a>
+                    </div>
+                    <div class="col-5"></div>
+
+                </div>
+
+            </div>
+            {% endif %}
+
+              {% if geocoding_data.checkdigg == true %}
+            <div class="col-3">
+                <div class="row">
+                    <div class="col-2">
+                        <label class="switch">
+                            <input id="yahooCheck" styles="three"class="check"  type="checkbox">
+                            <span class="slider round"></span>
+                        </label>
+
+                    </div>
+                    <div class="col-5 pic">
+                         <a class="socialuttons" data-socialuttons="yahoo" avalability='false' id="Yahoo">
+                        <img data-toggle="tooltip" data-placement="top" title="{{geocoding_data.Yahoo}}" >
+                    </a>
+                    </div>
+                    <div class="col-5"></div>
+
+                </div>
+
+            </div>
+            {% endif %}
+
+                   {% if geocoding_data.checkdigg == true %}
+            <div class="col-3">
+                <div class="row">
+                    <div class="col-2">
+                        <label class="switch">
+                            <input id="bloggerCheck" styles="three"class="check"  type="checkbox">
+                            <span class="slider round"></span>
+                        </label>
+
+                    </div>
+                    <div class="col-5 pic">
+                         <a class="socialuttons" data-socialuttons="blogger" avalability='false' id="blogger">
+                        <img data-toggle="tooltip" data-placement="top" title="{{geocoding_data.blogger}}" >
+                    </a>
                     </div>
                     <div class="col-5"></div>
 
