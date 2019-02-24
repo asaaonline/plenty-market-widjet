@@ -171,6 +171,76 @@ $(document).ready(function () {
 
 
 
+/////////////////////////////whatsApp/////////////////////////////////////////
+  var whatsappUrl = "whatsapp://send?text=" + x
+    $('#whatsapp').click(function () {
+        window.open(whatsappUrl, 'window name', 'window settings');
+        return false;
+    });
+
+
+/////////////////////////////Flattr/////////////////////////////////////////
+var FlattrppUrl = "https://flattr.com/submit/auto?url=" + x
+$('#Flattr').click(function () {
+    window.open(FlattrppUrl, 'window name', 'window settings');
+    return false;
+});
+
+/////////////////////////////buffer/////////////////////////////////////////
+var bufferUrl = "https://bufferapp.com/add?url="+x+"&amp;text=Simple Share Buttons"
+$('#buffer').click(function () {
+    window.open(bufferUrl, 'window name', 'window settings');
+    return false;
+});
+
+/////////////////////////////Vkontakte/////////////////////////////////////////
+var VkontakteUrl = "http://vkontakte.ru/share.php?url=" + x
+$('#Vkontakte').click(function () {
+    window.open(VkontakteUrl, 'window name', 'window settings');
+    return false;
+});
+
+/////////////////////////////stumbleupon/////////////////////////////////////////
+var stumbleuponUrl = "http://www.stumbleupon.com/submit?url="+x+"&amp;title=Simple Share Buttons"
+$('#stumbleupon').click(function () {
+    window.open(stumbleuponUrl, 'window name', 'window settings');
+    return false;
+});
+
+/////////////////////////////digg/////////////////////////////////////////
+var diggUrl = "http://www.digg.com/submit?url=" + x
+$('#digg').click(function () {
+    window.open(diggUrl, 'window name', 'window settings');
+    return false;
+});
+
+/////////////////////////////Yahoo/////////////////////////////////////////
+var YahooUrl = "whatsapp://send?text=" + x
+$('#Yahooapp').click(function () {
+    window.open(YahooUrl, 'window name', 'window settings');
+    return false;
+});
+
+/////////////////////////////blogger/////////////////////////////////////////
+var bloggerUrl = "whatsapp://send?text=" + x
+$('#blogger').click(function () {
+    window.open(bloggerUrl, 'window name', 'window settings');
+    return false;
+});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
     $('.check').click(function () {
         
@@ -216,7 +286,7 @@ $(document).ready(function () {
                 }
                     break;
                 case "three": {
-                    var id2 = $('#' + id).closest('.row').find('img').attr('src', main+'/images/' + id + '_selected3.png');
+                   
                 }
                     break;
             }

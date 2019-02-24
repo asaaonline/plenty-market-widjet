@@ -220,7 +220,7 @@
             </div>
 
             {% endif %}
-            {% if geocoding_data.apiKey == "333" %}
+            {% if geocoding_data.checkWhatsApp == true %}
             <div class="col-3">
                 <div class="row">
                     <div class="col-2">
@@ -231,9 +231,9 @@
 
                     </div>
                     <div class="col-5 pic">
-                        <div class='skype-share' data-href='' data-lang='' data-text='' data-style=''  style='text-align:center;width:100px;margin:auto;height:22px;background-color:#00AFF0;color:white;'>
-                            <img src="./"> 
-                        </div>
+                        <a avalability='false' id="whatsApp" >
+                            <img src="{{ plugin_path('GoogleMapsWidget') }}/images/whatsapp_unselected.png"> 
+                        </a>
                            
                         
                       
@@ -245,7 +245,49 @@
             </div>
 
 {% endif %}
-            {% if geocoding_data.apiKey == "333" %}
+            {% if geocoding_data.checkFlattr == true %}
+            <div class="col-3">
+                <div class="row">
+                    <div class="col-2">
+                        <label class="switch">
+                            <input styles="one" type="checkbox">
+                            <span class="slider round"></span>
+                        </label>
+
+                    </div>
+                    <div  class="col-5 pic">
+                      <a avalability='false' id="flattr" >
+                            <img src="{{ plugin_path('GoogleMapsWidget') }}/images/whatsapp_unselected.png"> 
+                        </a>
+                    </div>
+                    <div class="col-5"></div>
+
+                </div>
+
+            </div>
+{% endif %}
+ {% if geocoding_data.checkbuffer == true %}
+            <div class="col-3">
+                <div class="row">
+                    <div class="col-2">
+                        <label class="switch">
+                            <input styles="one" type="checkbox">
+                            <span class="slider round"></span>
+                        </label>
+
+                    </div>
+                    <div  class="col-5 pic">
+                      <a avalability='false' id="buffer" >
+                            <img src="{{ plugin_path('GoogleMapsWidget') }}/images/whatsapp_unselected.png"> 
+                        </a>
+                    </div>
+                    <div class="col-5"></div>
+
+                </div>
+
+            </div>
+{% endif %}
+ {% if geocoding_data.checkVkontakte == true %}
             <div class="col-3">
                 <div class="row">
                     <div class="col-2">
@@ -257,7 +299,9 @@
                     </div>
                     <div  class="col-5 pic">
                      
-                          <a href="#" id="xing"><img ></a>
+                          <a avalability='false' id="VK" >
+                            <img src="{{ plugin_path('GoogleMapsWidget') }}/images/whatsapp_unselected.png"> 
+                        </a>
                     </div>
                     <div class="col-5"></div>
 
@@ -265,7 +309,29 @@
 
             </div>
 {% endif %}
-            {% if geocoding_data.apiKey == "333" %}
+ {% if geocoding_data.checkstumbleupon == true %}
+            <div class="col-3">
+                <div class="row">
+                    <div class="col-2">
+                        <label class="switch">
+                            <input styles="one" type="checkbox">
+                            <span class="slider round"></span>
+                        </label>
+
+                    </div>
+                    <div  class="col-5 pic">
+                     
+                         <a avalability='false' id="stumbleupon" >
+                            <img src="{{ plugin_path('GoogleMapsWidget') }}/images/whatsapp_unselected.png"> 
+                        </a>
+                    </div>
+                    <div class="col-5"></div>
+
+                </div>
+
+            </div>
+{% endif %}
+            {% if geocoding_data.checkdigg == true %}
             <div class="col-3">
                 <div class="row">
                     <div class="col-2">
@@ -276,9 +342,9 @@
 
                     </div>
                     <div class="col-5 pic">
-                        <a href="#" id="tumblr">
-                            <img  />
-                   </a>
+                         <a avalability='false' id="digg" >
+                            <img src="{{ plugin_path('GoogleMapsWidget') }}/images/whatsapp_unselected.png"> 
+                        </a>
                     </div>
                     <div class="col-5"></div>
 
@@ -286,7 +352,48 @@
 
             </div>
             {% endif %}
-        
+        {% if geocoding_data.checkdigg == true %}
+            <div class="col-3">
+                <div class="row">
+                    <div class="col-2">
+                        <label class="switch">
+                            <input styles="one" type="checkbox">
+                            <span class="slider round"></span>
+                        </label>
+
+                    </div>
+                    <div class="col-5 pic">
+                         <a avalability='false' id="Yahoo" >
+                            <img src="{{ plugin_path('GoogleMapsWidget') }}/images/whatsapp_unselected.png"> 
+                        </a>
+                    </div>
+                    <div class="col-5"></div>
+
+                </div>
+
+            </div>
+            {% endif %}
+        {% if geocoding_data.checkdigg == true %}
+            <div class="col-3">
+                <div class="row">
+                    <div class="col-2">
+                        <label class="switch">
+                            <input styles="one" type="checkbox">
+                            <span class="slider round"></span>
+                        </label>
+
+                    </div>
+                    <div class="col-5 pic">
+                         <a avalability='false' id="digg" >
+                            <img src="{{ plugin_path('GoogleMapsWidget') }}/images/whatsapp_unselected.png"> 
+                        </a>
+                    </div>
+                    <div class="col-5"></div>
+
+                </div>
+
+            </div>
+            {% endif %}
       	</div>
   </div>
 
