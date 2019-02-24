@@ -238,15 +238,15 @@
                 "required": true,
                 "defaultValue": "",
                 "options": {
-                    "name": "Widget.mapsAddressLabel",
-                    "tooltip": "Widget.mapsAddressTooltip"
+                    "name": "Widget.bloggerLabel",
+                    "tooltip": "Widget.bloggerLabel"
                 }
             },
             "checkblogger": {
                 "type": "checkbox",    
                 "options": {
-                    "name": "Widget.facebookLabel",
-                    "tooltip": "Widget.facebookLabel"
+                    "name": "Widget.bloggerLabel",
+                    "tooltip": "Widget.bloggerLabel"
                 }
             },
             "yahoo": {
@@ -254,15 +254,15 @@
                 "required": true,
                 "defaultValue": "",
                 "options": {
-                    "name": "Widget.mapsAddressLabel",
-                    "tooltip": "Widget.mapsAddressTooltip"
+                    "name": "Widget.yahooLabel",
+                    "tooltip": "Widget.yahooLabel"
                 }
             },
             "checkyahoo": {
                 "type": "checkbox",    
                 "options": {
-                    "name": "Widget.facebookLabel",
-                    "tooltip": "Widget.facebookLabel"
+                    "name": "Widget.yahooLabel",
+                    "tooltip": "Widget.yahooLabel"
                 }
             },
             "WhatsApp": {
@@ -270,15 +270,15 @@
                 "required": true,
                 "defaultValue": "",
                 "options": {
-                    "name": "Widget.mapsAddressLabel",
-                    "tooltip": "Widget.mapsAddressTooltip"
+                    "name": "Widget.WhatsAppLabel",
+                    "tooltip": "Widget.WhatsAppLabel"
                 }
             },
             "checkWhatsApp": {
                 "type": "checkbox",    
                 "options": {
-                    "name": "Widget.facebookLabel",
-                    "tooltip": "Widget.facebookLabel"
+                    "name": "Widget.WhatsAppLabel",
+                    "tooltip": "Widget.WhatsAppLabel"
                 }
             },
             "zoom": {
