@@ -47,8 +47,7 @@ class MapsWidget extends BaseWidget
         $checkWhatsApp=$widgetSettings["checkWhatsApp"]["mobile"];
         
 
-  
-        
+   
             return [
                 "geocoding_data" => [
                     "facebook"=>"facebook",
@@ -86,9 +85,7 @@ class MapsWidget extends BaseWidget
                     
                     ]
             ];
-      
-        
-        }
+
 
         // $address = urlencode($address);
 
