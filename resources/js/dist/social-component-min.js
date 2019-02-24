@@ -282,11 +282,11 @@ $('#blogger').click(function () {
         var style = $(this).attr('styles')
         if ($(this).is(":checked")) {
             bootbox.prompt({
-                title: "",
+                title: "Do you agree to the pricacy policy and will adhere to them unconditionally",
                 inputType: 'checkbox',
                 inputOptions: [
                     {
-                        text: 'I agree to the pricacy policy and will adhere to them unconditionally',
+                        text: 'I agree',
                         value: '1',
                     },
     
