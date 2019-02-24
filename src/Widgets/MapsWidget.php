@@ -47,8 +47,8 @@ class MapsWidget extends BaseWidget
         $checkWhatsApp=$widgetSettings["checkWhatsApp"]["mobile"];
         
 
-        if (empty($address) || empty($apiKey)||empty($facebook))
-        {
+  
+        
             return [
                 "geocoding_data" => [
                     "facebook"=>"facebook",
@@ -86,29 +86,8 @@ class MapsWidget extends BaseWidget
                     
                     ]
             ];
-        }else{
-            return [
-                "geocoding_data" => [
-                    "facebook"=>$facebook,
-                    "address" => "ratnapura",
-                    "apiKey" => $apiKey,
-                    "style" => $style,
-                    "checkfacebook" => $checkfacebook,
-                    "checkLinkedin" => $checkLinkedin,
-                    "checkGoogle"=> $checkGoogle,
-                     "checkPinterest" => $checkPinterest,
-                     "checkSkype" => $checkSkype,
-                     "checkXing" => $checkXing,
-                     "checktumblr" => $checktumblr,
-                     "checkreddit" => $checkreddit,
-                     "checkstumbleupon" => $checkstumbleupon,
-                     "checkdigg" => $checkdigg,
-                     "checkFlattr" => $checkFlattr,
-                     "checkbuffer" => $checkbuffer,
-                     "checkVkontakte" => $checkVkontakte,
-                     "checkWhatsApp" => $checkWhatsApp,
-                ]
-            ];
+      
+        
         }
 
         // $address = urlencode($address);
