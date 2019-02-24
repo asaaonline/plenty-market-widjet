@@ -233,6 +233,38 @@
                     "tooltip": "Widget.VkontakteLabel"
                 }
             },
+            "blogger": {
+                "type": "text",
+                "required": true,
+                "defaultValue": "",
+                "options": {
+                    "name": "Widget.mapsAddressLabel",
+                    "tooltip": "Widget.mapsAddressTooltip"
+                }
+            },
+            "checkblogger": {
+                "type": "checkbox",    
+                "options": {
+                    "name": "Widget.facebookLabel",
+                    "tooltip": "Widget.facebookLabel"
+                }
+            },
+            "yahoo": {
+                "type": "text",
+                "required": true,
+                "defaultValue": "",
+                "options": {
+                    "name": "Widget.mapsAddressLabel",
+                    "tooltip": "Widget.mapsAddressTooltip"
+                }
+            },
+            "checkyahoo": {
+                "type": "checkbox",    
+                "options": {
+                    "name": "Widget.facebookLabel",
+                    "tooltip": "Widget.facebookLabel"
+                }
+            },
             "WhatsApp": {
                 "type": "text",
                 "required": true,
