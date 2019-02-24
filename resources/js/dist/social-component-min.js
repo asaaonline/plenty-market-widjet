@@ -282,11 +282,11 @@ $('#blogger').click(function () {
         var style = $(this).attr('styles')
         if ($(this).is(":checked")) {
             bootbox.prompt({
-                title: "This is a prompt with a set of checkbox inputs!",
+                title: "",
                 inputType: 'checkbox',
                 inputOptions: [
                     {
-                        text: 'Choice One',
+                        text: 'I agree to the pricacy policy and will adhere to them unconditionally',
                         value: '1',
                     },
     
