@@ -150,6 +150,7 @@ $(document).ready(function () {
     /////////////////xing//////////////////////////////
     var xingUrl = "https://www.xing.com/spi/shares/new?url=" + x;
     $('#xing').click(function () {
+        console.log('press');
         window.open(xingUrl, 'window name', 'window settings');
         return false;
     });
@@ -157,6 +158,7 @@ $(document).ready(function () {
     /////////////////////////////////// tumblrUrl/////////////////
     var tumblrUrl = "http://tumblr.com/widgets/share/tool?canonicalUrl=" + x
     $('#tumblr').click(function () {
+        console.log('press');
         window.open(tumblrUrl, 'window name', 'window settings');
         return false;
     });
@@ -165,6 +167,7 @@ $(document).ready(function () {
     ///////////////////////////Redit////////////////////////////////////
     var redditUrl = "http://www.reddit.com/submit?url=" + x
     $('#reddit').click(function () {
+        console.log('press');
         window.open(redditUrl, 'window name', 'window settings');
         return false;
     });
@@ -174,6 +177,7 @@ $(document).ready(function () {
 /////////////////////////////whatsApp/////////////////////////////////////////
   var whatsappUrl = "whatsapp://send?text=" + x
     $('#whatsapp').click(function () {
+        console.log('press whatsApp');
         window.open(whatsappUrl, 'window name', 'window settings');
         return false;
     });
@@ -182,6 +186,7 @@ $(document).ready(function () {
 /////////////////////////////Flattr/////////////////////////////////////////
 var FlattrppUrl = "https://flattr.com/submit/auto?url=" + x
 $('#Flattr').click(function () {
+    console.log('press Flattr');
     window.open(FlattrppUrl, 'window name', 'window settings');
     return false;
 });
@@ -189,6 +194,7 @@ $('#Flattr').click(function () {
 /////////////////////////////buffer/////////////////////////////////////////
 var bufferUrl = "https://bufferapp.com/add?url="+x+"&amp;text=Simple Share Buttons"
 $('#buffer').click(function () {
+    console.log('press buffer');
     window.open(bufferUrl, 'window name', 'window settings');
     return false;
 });
@@ -196,6 +202,7 @@ $('#buffer').click(function () {
 /////////////////////////////Vkontakte/////////////////////////////////////////
 var VkontakteUrl = "http://vkontakte.ru/share.php?url=" + x
 $('#Vkontakte').click(function () {
+    console.log('press Vkontakte' );
     window.open(VkontakteUrl, 'window name', 'window settings');
     return false;
 });
@@ -203,6 +210,7 @@ $('#Vkontakte').click(function () {
 /////////////////////////////stumbleupon/////////////////////////////////////////
 var stumbleuponUrl = "http://www.stumbleupon.com/submit?url="+x+"&amp;title=Simple Share Buttons"
 $('#stumbleupon').click(function () {
+    console.log('press');
     window.open(stumbleuponUrl, 'window name', 'window settings');
     return false;
 });
@@ -210,6 +218,7 @@ $('#stumbleupon').click(function () {
 /////////////////////////////digg/////////////////////////////////////////
 var diggUrl = "http://www.digg.com/submit?url=" + x
 $('#digg').click(function () {
+    console.log('press');
     window.open(diggUrl, 'window name', 'window settings');
     return false;
 });
@@ -217,6 +226,7 @@ $('#digg').click(function () {
 /////////////////////////////Yahoo/////////////////////////////////////////
 var YahooUrl = "whatsapp://send?text=" + x
 $('#Yahooapp').click(function () {
+    console.log('press');
     window.open(YahooUrl, 'window name', 'window settings');
     return false;
 });
@@ -224,6 +234,7 @@ $('#Yahooapp').click(function () {
 /////////////////////////////blogger/////////////////////////////////////////
 var bloggerUrl = "whatsapp://send?text=" + x
 $('#blogger').click(function () {
+    console.log('press');
     window.open(bloggerUrl, 'window name', 'window settings');
     return false;
 });
